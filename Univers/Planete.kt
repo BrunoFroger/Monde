@@ -1,23 +1,24 @@
 //----------------------------------------------
 //
-//      Univers.kt
+//      Planete.kt
 //
 //----------------------------------------------
 //
 //      Copyright B. Froger 2020
 //
 //----------------------------------------------
-package Monde.Univers
 
-open class Univers{
+import Monde.Univers.*
 
-    lateinit var nomUnivers:String
-
-    open fun display(){
+class Planete:Univers(){
+    
+    lateinit var nomPlanete:String
+    
+    override fun display(){
         println("+=====================+")
-        println("|   objet Univers     |")
+        println("|   objet Planete     |")
         println("+---------------------+")
-        println("| nom    | %10s |".format(this.nomUnivers))
+        println("| nom    | %10s |".format(this.nomPlanete))
         println("+=====================+")
     }
     
