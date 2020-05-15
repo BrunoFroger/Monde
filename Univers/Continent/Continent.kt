@@ -1,6 +1,6 @@
 //----------------------------------------------
 //
-//      Planete.kt
+//      Continent.kt
 //
 //----------------------------------------------
 //
@@ -9,11 +9,14 @@
 //----------------------------------------------
 package Monde
 
-class Planete{
+import Monde.Shell.*
+
+
+class Continent{
 
     var nom:String
     var id:Int
-    val type:String = "Planete"
+    val type:String = "Continent"
     val parentId:Int
 
     constructor(id:Int, nom:String, parent:Int){
@@ -22,8 +25,9 @@ class Planete{
         this.parentId = parent
         log("$type $nom($id) cree")
     }
-    
+
     fun display(){
         println("| %5d  | %5d  | %10s | %10s |".format(this.id,this.parentId,this.type,this.nom))
     }
+    
 }
