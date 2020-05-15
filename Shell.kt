@@ -25,9 +25,6 @@ class Shell{
     fun run(){
         var commande:String
         var result = 1
-        log("=====================================")
-        log("         Debut de session")
-        log("=====================================")
         while (result != 0){
             displayPrompt()
             commande = getCommande()
@@ -63,14 +60,17 @@ class Shell{
     private fun executeCommande(commande:String):Int{
         var tmp:String
         if (commande.equals("quit")){
-            log("=====================================")
-            log("         fin de session")
-            log("=====================================")
             return 0
         } else if (commande.equals("")) {
             return 1
         } else if (commande.equals("list")) {
             list()
+        } else if (commande.startsWith("clock")) {
+            if (commande.length > 5){
+                clock.commande(commande.substring(6))
+            } else {
+                println("ERREUR : syntaxe incorrecte")
+            }
         } else if (commande.startsWith("cd")){
             if (commande.length > 2){
                 tmp = commande.substring(3)

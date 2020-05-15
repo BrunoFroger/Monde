@@ -16,11 +16,20 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 var shell:Shell = Shell()
+var clock = Clock(2000)
 
 fun main(args: Array<String>){
-
+    log("=====================================")
+    log("         Debut de session")
+    log("=====================================")
+    clock.start()
     // Lancement du shell de pilotage
     shell.run()
+    clock.stop()
+    log("=====================================")
+    log("         fin de session")
+    log("=====================================")
+    return
 }
 
 var logFilename:String="monde.log"

@@ -272,3 +272,1217 @@ date a afiicher => commande <quit> saisie
 2020-05-15 17:54:06.342 => on change de niveau (rr) 
 2020-05-15 17:54:07.928 => commande <cd> saisie 
 2020-05-15 17:54:11.770 => commande <list> saisie 
+2020-05-15 23:24:42.417 => ===================================== 
+2020-05-15 23:24:42.438 =>          Debut de session 
+2020-05-15 23:24:42.438 => ===================================== 
+2020-05-15 23:27:03.500 => commande <quit> saisie 
+2020-05-15 23:27:03.500 => ===================================== 
+2020-05-15 23:27:03.502 =>          fin de session 
+2020-05-15 23:27:03.503 => ===================================== 
+2020-05-15 23:29:08.307 => ===================================== 
+2020-05-15 23:29:08.322 =>          Debut de session 
+2020-05-15 23:29:08.324 => ===================================== 
+2020-05-15 23:29:08.325 => Clock : constructor 
+2020-05-15 23:29:18.328 => Clock : timerTask =>>  
+2020-05-15 23:29:58.375 => commande <quit> saisie 
+2020-05-15 23:29:58.376 => ===================================== 
+2020-05-15 23:29:58.378 =>          fin de session 
+2020-05-15 23:29:58.378 => ===================================== 
+2020-05-15 23:30:48.444 => ===================================== 
+2020-05-15 23:30:48.460 =>          Debut de session 
+2020-05-15 23:30:48.462 => ===================================== 
+2020-05-15 23:30:48.462 => Clock : constructor 
+2020-05-15 23:30:49.470 => Clock : timerTask =>  
+2020-05-15 23:31:08.766 => commande <new univers tt> saisie 
+2020-05-15 23:31:08.776 => Univers tt(1) cree 
+2020-05-15 23:31:44.052 => commande <quit> saisie 
+2020-05-15 23:31:44.053 => ===================================== 
+2020-05-15 23:31:44.054 =>          fin de session 
+2020-05-15 23:31:44.055 => ===================================== 
+2020-05-15 23:32:35.894 => ===================================== 
+2020-05-15 23:32:35.910 =>          Debut de session 
+2020-05-15 23:32:35.912 => ===================================== 
+2020-05-15 23:32:35.912 => Clock : constructor 
+2020-05-15 23:32:36.920 => Clock : timerTask =>  
+2020-05-15 23:37:06.322 => commande <quit> saisie 
+2020-05-15 23:37:06.323 => ===================================== 
+2020-05-15 23:37:06.324 =>          fin de session 
+2020-05-15 23:37:06.325 => ===================================== 
+2020-05-16 00:03:24.102 => ===================================== 
+2020-05-16 00:03:24.118 =>          Debut de session 
+2020-05-16 00:03:24.120 => ===================================== 
+2020-05-16 00:03:24.121 => Clock : constructor 
+2020-05-16 00:03:24.629 => Clock : timerTask =>  
+2020-05-16 00:03:24.629 => Clock : constructor 
+2020-05-16 00:03:25.137 => Clock : timerTask =>  
+2020-05-16 00:03:25.137 => Clock : constructor 
+2020-05-16 00:03:25.644 => Clock : timerTask =>  
+2020-05-16 00:03:25.644 => Clock : constructor 
+2020-05-16 00:03:26.148 => Clock : timerTask =>  
+2020-05-16 00:03:26.148 => Clock : constructor 
+2020-05-16 00:03:26.651 => Clock : timerTask =>  
+2020-05-16 00:03:26.652 => Clock : constructor 
+2020-05-16 00:03:27.158 => Clock : timerTask =>  
+2020-05-16 00:03:27.158 => Clock : constructor 
+2020-05-16 00:03:27.665 => Clock : timerTask =>  
+2020-05-16 00:03:27.666 => Clock : constructor 
+2020-05-16 00:03:28.173 => Clock : timerTask =>  
+2020-05-16 00:03:28.174 => Clock : constructor 
+2020-05-16 00:03:28.681 => Clock : timerTask =>  
+2020-05-16 00:03:28.682 => Clock : constructor 
+2020-05-16 00:03:29.186 => Clock : timerTask =>  
+2020-05-16 00:03:29.186 => Clock : constructor 
+2020-05-16 00:03:29.694 => Clock : timerTask =>  
+2020-05-16 00:03:29.694 => Clock : constructor 
+2020-05-16 00:03:30.198 => Clock : timerTask =>  
+2020-05-16 00:03:30.198 => Clock : constructor 
+2020-05-16 00:03:30.705 => Clock : timerTask =>  
+2020-05-16 00:03:30.706 => Clock : constructor 
+2020-05-16 00:03:31.210 => Clock : timerTask =>  
+2020-05-16 00:03:31.210 => Clock : constructor 
+2020-05-16 00:03:31.714 => Clock : timerTask =>  
+2020-05-16 00:03:31.714 => Clock : constructor 
+2020-05-16 00:03:32.221 => Clock : timerTask =>  
+2020-05-16 00:03:32.221 => Clock : constructor 
+2020-05-16 00:03:32.729 => Clock : timerTask =>  
+2020-05-16 00:03:32.729 => Clock : constructor 
+2020-05-16 00:03:33.236 => Clock : timerTask =>  
+2020-05-16 00:03:33.237 => Clock : constructor 
+2020-05-16 00:03:33.741 => Clock : timerTask =>  
+2020-05-16 00:03:33.741 => Clock : constructor 
+2020-05-16 00:03:34.249 => Clock : timerTask =>  
+2020-05-16 00:03:34.249 => Clock : constructor 
+2020-05-16 00:03:34.752 => Clock : timerTask =>  
+2020-05-16 00:03:34.753 => Clock : constructor 
+2020-05-16 00:03:35.256 => Clock : timerTask =>  
+2020-05-16 00:03:35.257 => Clock : constructor 
+2020-05-16 00:03:35.760 => Clock : timerTask =>  
+2020-05-16 00:03:35.761 => Clock : constructor 
+2020-05-16 00:03:36.263 => Clock : timerTask =>  
+2020-05-16 00:03:36.263 => Clock : constructor 
+2020-05-16 00:03:36.766 => Clock : timerTask =>  
+2020-05-16 00:03:36.766 => Clock : constructor 
+2020-05-16 00:03:37.273 => Clock : timerTask =>  
+2020-05-16 00:03:37.274 => Clock : constructor 
+2020-05-16 00:03:37.778 => Clock : timerTask =>  
+2020-05-16 00:03:37.778 => Clock : constructor 
+2020-05-16 00:03:38.282 => Clock : timerTask =>  
+2020-05-16 00:03:38.282 => Clock : constructor 
+2020-05-16 00:03:38.788 => Clock : timerTask =>  
+2020-05-16 00:03:38.789 => Clock : constructor 
+2020-05-16 00:03:39.292 => Clock : timerTask =>  
+2020-05-16 00:03:39.293 => Clock : constructor 
+2020-05-16 00:03:39.795 => Clock : timerTask =>  
+2020-05-16 00:03:39.796 => Clock : constructor 
+2020-05-16 00:03:40.299 => Clock : timerTask =>  
+2020-05-16 00:03:40.300 => Clock : constructor 
+2020-05-16 00:03:40.805 => Clock : timerTask =>  
+2020-05-16 00:03:40.806 => Clock : constructor 
+2020-05-16 00:03:41.309 => Clock : timerTask =>  
+2020-05-16 00:03:41.310 => Clock : constructor 
+2020-05-16 00:03:41.813 => Clock : timerTask =>  
+2020-05-16 00:03:41.814 => Clock : constructor 
+2020-05-16 00:03:42.318 => Clock : timerTask =>  
+2020-05-16 00:03:42.319 => Clock : constructor 
+2020-05-16 00:03:42.822 => Clock : timerTask =>  
+2020-05-16 00:03:42.823 => Clock : constructor 
+2020-05-16 00:03:43.325 => Clock : timerTask =>  
+2020-05-16 00:03:43.325 => Clock : constructor 
+2020-05-16 00:03:43.828 => Clock : timerTask =>  
+2020-05-16 00:03:43.828 => Clock : constructor 
+2020-05-16 00:03:44.330 => Clock : timerTask =>  
+2020-05-16 00:03:44.331 => Clock : constructor 
+2020-05-16 00:03:44.837 => Clock : timerTask =>  
+2020-05-16 00:03:44.838 => Clock : constructor 
+2020-05-16 00:03:45.344 => Clock : timerTask =>  
+2020-05-16 00:03:45.345 => Clock : constructor 
+2020-05-16 00:03:45.852 => Clock : timerTask =>  
+2020-05-16 00:03:45.852 => Clock : constructor 
+2020-05-16 00:03:46.356 => Clock : timerTask =>  
+2020-05-16 00:03:46.357 => Clock : constructor 
+2020-05-16 00:03:46.862 => Clock : timerTask =>  
+2020-05-16 00:03:46.862 => Clock : constructor 
+2020-05-16 00:03:47.369 => Clock : timerTask =>  
+2020-05-16 00:03:47.369 => Clock : constructor 
+2020-05-16 00:03:47.873 => Clock : timerTask =>  
+2020-05-16 00:03:47.873 => Clock : constructor 
+2020-05-16 00:03:48.376 => Clock : timerTask =>  
+2020-05-16 00:03:48.377 => Clock : constructor 
+2020-05-16 00:03:48.882 => Clock : timerTask =>  
+2020-05-16 00:03:48.883 => Clock : constructor 
+2020-05-16 00:03:49.385 => Clock : timerTask =>  
+2020-05-16 00:03:49.386 => Clock : constructor 
+2020-05-16 00:03:49.890 => Clock : timerTask =>  
+2020-05-16 00:03:49.891 => Clock : constructor 
+2020-05-16 00:03:50.398 => Clock : timerTask =>  
+2020-05-16 00:03:50.398 => Clock : constructor 
+2020-05-16 00:03:50.905 => Clock : timerTask =>  
+2020-05-16 00:03:50.905 => Clock : constructor 
+2020-05-16 00:03:51.408 => Clock : timerTask =>  
+2020-05-16 00:03:51.409 => Clock : constructor 
+2020-05-16 00:03:51.912 => Clock : timerTask =>  
+2020-05-16 00:03:51.913 => Clock : constructor 
+2020-05-16 00:03:52.418 => Clock : timerTask =>  
+2020-05-16 00:03:52.419 => Clock : constructor 
+2020-05-16 00:03:52.682 => commande <quit> saisie 
+2020-05-16 00:03:52.682 => ===================================== 
+2020-05-16 00:03:52.684 =>          fin de session 
+2020-05-16 00:03:52.684 => ===================================== 
+2020-05-16 00:05:25.070 => ===================================== 
+2020-05-16 00:05:25.086 =>          Debut de session 
+2020-05-16 00:05:25.088 => ===================================== 
+2020-05-16 00:05:25.090 => Clock : start 
+2020-05-16 00:05:26.097 => Clock : timerTask =>  
+2020-05-16 00:05:59.669 => commande <quit> saisie 
+2020-05-16 00:05:59.669 => ===================================== 
+2020-05-16 00:05:59.671 =>          fin de session 
+2020-05-16 00:05:59.671 => ===================================== 
+2020-05-16 00:06:07.654 => ===================================== 
+2020-05-16 00:06:07.670 =>          Debut de session 
+2020-05-16 00:06:07.672 => ===================================== 
+2020-05-16 00:06:08.676 => Clock : timerTask =>  
+2020-05-16 00:06:09.680 => Clock : timerTask =>  
+2020-05-16 00:06:10.686 => Clock : timerTask =>  
+2020-05-16 00:06:11.689 => Clock : timerTask =>  
+2020-05-16 00:06:12.695 => Clock : timerTask =>  
+2020-05-16 00:06:13.697 => Clock : timerTask =>  
+2020-05-16 00:06:14.699 => Clock : timerTask =>  
+2020-05-16 00:06:15.705 => Clock : timerTask =>  
+2020-05-16 00:06:16.708 => Clock : timerTask =>  
+2020-05-16 00:06:17.714 => Clock : timerTask =>  
+2020-05-16 00:06:18.715 => Clock : timerTask =>  
+2020-05-16 00:06:19.720 => Clock : timerTask =>  
+2020-05-16 00:06:20.721 => Clock : timerTask =>  
+2020-05-16 00:06:21.727 => Clock : timerTask =>  
+2020-05-16 00:06:22.733 => Clock : timerTask =>  
+2020-05-16 00:06:23.735 => Clock : timerTask =>  
+2020-05-16 00:06:24.741 => Clock : timerTask =>  
+2020-05-16 00:06:25.742 => Clock : timerTask =>  
+2020-05-16 00:06:26.746 => Clock : timerTask =>  
+2020-05-16 00:06:27.747 => Clock : timerTask =>  
+2020-05-16 00:06:28.749 => Clock : timerTask =>  
+2020-05-16 00:06:29.754 => Clock : timerTask =>  
+2020-05-16 00:06:30.755 => Clock : timerTask =>  
+2020-05-16 00:06:31.756 => Clock : timerTask =>  
+2020-05-16 00:06:32.759 => Clock : timerTask =>  
+2020-05-16 00:06:33.764 => Clock : timerTask =>  
+2020-05-16 00:06:34.770 => Clock : timerTask =>  
+2020-05-16 00:06:35.770 => Clock : timerTask =>  
+2020-05-16 00:06:36.773 => Clock : timerTask =>  
+2020-05-16 00:06:37.774 => Clock : timerTask =>  
+2020-05-16 00:06:38.779 => Clock : timerTask =>  
+2020-05-16 00:06:39.779 => Clock : timerTask =>  
+2020-05-16 00:06:40.781 => Clock : timerTask =>  
+2020-05-16 00:06:41.784 => Clock : timerTask =>  
+2020-05-16 00:06:42.787 => Clock : timerTask =>  
+2020-05-16 00:06:43.792 => Clock : timerTask =>  
+2020-05-16 00:06:44.793 => Clock : timerTask =>  
+2020-05-16 00:06:45.794 => Clock : timerTask =>  
+2020-05-16 00:06:46.799 => Clock : timerTask =>  
+2020-05-16 00:06:47.804 => Clock : timerTask =>  
+2020-05-16 00:06:48.810 => Clock : timerTask =>  
+2020-05-16 00:06:49.810 => Clock : timerTask =>  
+2020-05-16 00:06:50.812 => Clock : timerTask =>  
+2020-05-16 00:06:51.814 => Clock : timerTask =>  
+2020-05-16 00:06:52.819 => Clock : timerTask =>  
+2020-05-16 00:06:53.825 => Clock : timerTask =>  
+2020-05-16 00:06:54.828 => Clock : timerTask =>  
+2020-05-16 00:06:55.831 => Clock : timerTask =>  
+2020-05-16 00:06:56.835 => Clock : timerTask =>  
+2020-05-16 00:06:57.835 => Clock : timerTask =>  
+2020-05-16 00:06:58.840 => Clock : timerTask =>  
+2020-05-16 00:06:59.848 => Clock : timerTask =>  
+2020-05-16 00:07:00.853 => Clock : timerTask =>  
+2020-05-16 00:07:01.856 => Clock : timerTask =>  
+2020-05-16 00:07:02.857 => Clock : timerTask =>  
+2020-05-16 00:07:03.862 => Clock : timerTask =>  
+2020-05-16 00:07:04.864 => Clock : timerTask =>  
+2020-05-16 00:07:05.866 => Clock : timerTask =>  
+2020-05-16 00:07:06.866 => Clock : timerTask =>  
+2020-05-16 00:07:07.871 => Clock : timerTask =>  
+2020-05-16 00:07:08.872 => Clock : timerTask =>  
+2020-05-16 00:07:09.876 => Clock : timerTask =>  
+2020-05-16 00:07:10.877 => Clock : timerTask =>  
+2020-05-16 00:07:11.883 => Clock : timerTask =>  
+2020-05-16 00:07:12.883 => Clock : timerTask =>  
+2020-05-16 00:07:13.884 => Clock : timerTask =>  
+2020-05-16 00:07:14.888 => Clock : timerTask =>  
+2020-05-16 00:07:15.893 => Clock : timerTask =>  
+2020-05-16 00:07:16.897 => Clock : timerTask =>  
+2020-05-16 00:07:17.903 => Clock : timerTask =>  
+2020-05-16 00:07:18.904 => Clock : timerTask =>  
+2020-05-16 00:07:19.908 => Clock : timerTask =>  
+2020-05-16 00:07:20.913 => Clock : timerTask =>  
+2020-05-16 00:07:21.918 => Clock : timerTask =>  
+2020-05-16 00:07:22.923 => Clock : timerTask =>  
+2020-05-16 00:07:23.936 => Clock : timerTask =>  
+2020-05-16 00:07:24.941 => Clock : timerTask =>  
+2020-05-16 00:07:25.946 => Clock : timerTask =>  
+2020-05-16 00:07:26.951 => Clock : timerTask =>  
+2020-05-16 00:07:27.954 => Clock : timerTask =>  
+2020-05-16 00:07:28.960 => Clock : timerTask =>  
+2020-05-16 00:07:29.966 => Clock : timerTask =>  
+2020-05-16 00:07:30.971 => Clock : timerTask =>  
+2020-05-16 00:07:31.974 => Clock : timerTask =>  
+2020-05-16 00:07:32.976 => Clock : timerTask =>  
+2020-05-16 00:07:33.982 => Clock : timerTask =>  
+2020-05-16 00:07:34.987 => Clock : timerTask =>  
+2020-05-16 00:07:35.993 => Clock : timerTask =>  
+2020-05-16 00:07:36.998 => Clock : timerTask =>  
+2020-05-16 00:07:38.004 => Clock : timerTask =>  
+2020-05-16 00:07:39.010 => Clock : timerTask =>  
+2020-05-16 00:07:40.011 => Clock : timerTask =>  
+2020-05-16 00:07:41.011 => Clock : timerTask =>  
+2020-05-16 00:07:42.012 => Clock : timerTask =>  
+2020-05-16 00:07:43.015 => Clock : timerTask =>  
+2020-05-16 00:07:44.018 => Clock : timerTask =>  
+2020-05-16 00:07:45.023 => Clock : timerTask =>  
+2020-05-16 00:07:46.026 => Clock : timerTask =>  
+2020-05-16 00:07:47.030 => Clock : timerTask =>  
+2020-05-16 00:07:48.034 => Clock : timerTask =>  
+2020-05-16 00:07:49.035 => Clock : timerTask =>  
+2020-05-16 00:07:50.036 => Clock : timerTask =>  
+2020-05-16 00:07:51.042 => Clock : timerTask =>  
+2020-05-16 00:07:52.048 => Clock : timerTask =>  
+2020-05-16 00:07:53.052 => Clock : timerTask =>  
+2020-05-16 00:07:54.057 => Clock : timerTask =>  
+2020-05-16 00:07:55.063 => Clock : timerTask =>  
+2020-05-16 00:07:56.067 => Clock : timerTask =>  
+2020-05-16 00:07:57.068 => Clock : timerTask =>  
+2020-05-16 00:07:58.073 => Clock : timerTask =>  
+2020-05-16 00:07:59.075 => Clock : timerTask =>  
+2020-05-16 00:08:00.080 => Clock : timerTask =>  
+2020-05-16 00:08:01.086 => Clock : timerTask =>  
+2020-05-16 00:08:02.089 => Clock : timerTask =>  
+2020-05-16 00:08:03.095 => Clock : timerTask =>  
+2020-05-16 00:08:04.101 => Clock : timerTask =>  
+2020-05-16 00:08:05.107 => Clock : timerTask =>  
+2020-05-16 00:08:06.108 => Clock : timerTask =>  
+2020-05-16 00:08:07.112 => Clock : timerTask =>  
+2020-05-16 00:08:08.118 => Clock : timerTask =>  
+2020-05-16 00:08:09.123 => Clock : timerTask =>  
+2020-05-16 00:08:10.129 => Clock : timerTask =>  
+2020-05-16 00:08:11.132 => Clock : timerTask =>  
+2020-05-16 00:08:12.138 => Clock : timerTask =>  
+2020-05-16 00:08:13.138 => Clock : timerTask =>  
+2020-05-16 00:08:14.139 => Clock : timerTask =>  
+2020-05-16 00:08:15.140 => Clock : timerTask =>  
+2020-05-16 00:08:16.146 => Clock : timerTask =>  
+2020-05-16 00:08:17.150 => Clock : timerTask =>  
+2020-05-16 00:08:18.152 => Clock : timerTask =>  
+2020-05-16 00:08:19.157 => Clock : timerTask =>  
+2020-05-16 00:08:20.162 => Clock : timerTask =>  
+2020-05-16 00:08:21.162 => Clock : timerTask =>  
+2020-05-16 00:08:22.168 => Clock : timerTask =>  
+2020-05-16 00:08:23.173 => Clock : timerTask =>  
+2020-05-16 00:08:24.178 => Clock : timerTask =>  
+2020-05-16 00:08:25.179 => Clock : timerTask =>  
+2020-05-16 00:08:26.179 => Clock : timerTask =>  
+2020-05-16 00:08:27.181 => Clock : timerTask =>  
+2020-05-16 00:08:28.183 => Clock : timerTask =>  
+2020-05-16 00:08:29.187 => Clock : timerTask =>  
+2020-05-16 00:08:30.191 => Clock : timerTask =>  
+2020-05-16 00:08:31.192 => Clock : timerTask =>  
+2020-05-16 00:08:32.193 => Clock : timerTask =>  
+2020-05-16 00:08:33.195 => Clock : timerTask =>  
+2020-05-16 00:08:34.200 => Clock : timerTask =>  
+2020-05-16 00:08:35.201 => Clock : timerTask =>  
+2020-05-16 00:08:36.204 => Clock : timerTask =>  
+2020-05-16 00:08:37.208 => Clock : timerTask =>  
+2020-05-16 00:08:38.209 => Clock : timerTask =>  
+2020-05-16 00:08:39.209 => Clock : timerTask =>  
+2020-05-16 00:08:40.210 => Clock : timerTask =>  
+2020-05-16 00:08:41.216 => Clock : timerTask =>  
+2020-05-16 00:08:42.218 => Clock : timerTask =>  
+2020-05-16 00:08:43.221 => Clock : timerTask =>  
+2020-05-16 00:08:44.226 => Clock : timerTask =>  
+2020-05-16 00:08:45.231 => Clock : timerTask =>  
+2020-05-16 00:08:46.234 => Clock : timerTask =>  
+2020-05-16 00:08:47.237 => Clock : timerTask =>  
+2020-05-16 00:08:48.241 => Clock : timerTask =>  
+2020-05-16 00:08:49.242 => Clock : timerTask =>  
+2020-05-16 00:08:50.247 => Clock : timerTask =>  
+2020-05-16 00:08:51.250 => Clock : timerTask =>  
+2020-05-16 00:08:52.256 => Clock : timerTask =>  
+2020-05-16 00:08:53.257 => Clock : timerTask =>  
+2020-05-16 00:08:54.258 => Clock : timerTask =>  
+2020-05-16 00:08:55.264 => Clock : timerTask =>  
+2020-05-16 00:08:56.269 => Clock : timerTask =>  
+2020-05-16 00:08:57.272 => Clock : timerTask =>  
+2020-05-16 00:08:58.274 => Clock : timerTask =>  
+2020-05-16 00:08:59.279 => Clock : timerTask =>  
+2020-05-16 00:09:00.282 => Clock : timerTask =>  
+2020-05-16 00:09:01.287 => Clock : timerTask =>  
+2020-05-16 00:09:02.291 => Clock : timerTask =>  
+2020-05-16 00:09:03.293 => Clock : timerTask =>  
+2020-05-16 00:09:04.296 => Clock : timerTask =>  
+2020-05-16 00:09:05.300 => Clock : timerTask =>  
+2020-05-16 00:09:06.301 => Clock : timerTask =>  
+2020-05-16 00:09:07.302 => Clock : timerTask =>  
+2020-05-16 00:09:08.303 => Clock : timerTask =>  
+2020-05-16 00:09:09.307 => Clock : timerTask =>  
+2020-05-16 00:09:10.312 => Clock : timerTask =>  
+2020-05-16 00:09:11.317 => Clock : timerTask =>  
+2020-05-16 00:09:12.321 => Clock : timerTask =>  
+2020-05-16 00:09:13.325 => Clock : timerTask =>  
+2020-05-16 00:09:14.326 => Clock : timerTask =>  
+2020-05-16 00:09:15.330 => Clock : timerTask =>  
+2020-05-16 00:09:16.333 => Clock : timerTask =>  
+2020-05-16 00:09:17.334 => Clock : timerTask =>  
+2020-05-16 00:09:18.338 => Clock : timerTask =>  
+2020-05-16 00:09:19.343 => Clock : timerTask =>  
+2020-05-16 00:09:20.348 => Clock : timerTask =>  
+2020-05-16 00:09:21.351 => Clock : timerTask =>  
+2020-05-16 00:09:22.354 => Clock : timerTask =>  
+2020-05-16 00:09:23.357 => Clock : timerTask =>  
+2020-05-16 00:09:24.362 => Clock : timerTask =>  
+2020-05-16 00:09:25.368 => Clock : timerTask =>  
+2020-05-16 00:09:26.371 => Clock : timerTask =>  
+2020-05-16 00:09:27.373 => Clock : timerTask =>  
+2020-05-16 00:09:28.376 => Clock : timerTask =>  
+2020-05-16 00:09:29.380 => Clock : timerTask =>  
+2020-05-16 00:09:30.384 => Clock : timerTask =>  
+2020-05-16 00:09:31.388 => Clock : timerTask =>  
+2020-05-16 00:09:32.390 => Clock : timerTask =>  
+2020-05-16 00:09:33.392 => Clock : timerTask =>  
+2020-05-16 00:09:34.400 => Clock : timerTask =>  
+2020-05-16 00:09:35.406 => Clock : timerTask =>  
+2020-05-16 00:09:36.408 => Clock : timerTask =>  
+2020-05-16 00:09:37.413 => Clock : timerTask =>  
+2020-05-16 00:09:38.418 => Clock : timerTask =>  
+2020-05-16 00:09:39.420 => Clock : timerTask =>  
+2020-05-16 00:09:40.422 => Clock : timerTask =>  
+2020-05-16 00:09:41.428 => Clock : timerTask =>  
+2020-05-16 00:09:42.432 => Clock : timerTask =>  
+2020-05-16 00:09:43.433 => Clock : timerTask =>  
+2020-05-16 00:09:44.437 => Clock : timerTask =>  
+2020-05-16 00:09:45.443 => Clock : timerTask =>  
+2020-05-16 00:09:46.445 => Clock : timerTask =>  
+2020-05-16 00:09:47.451 => Clock : timerTask =>  
+2020-05-16 00:09:48.454 => Clock : timerTask =>  
+2020-05-16 00:09:49.459 => Clock : timerTask =>  
+2020-05-16 00:09:50.465 => Clock : timerTask =>  
+2020-05-16 00:09:51.467 => Clock : timerTask =>  
+2020-05-16 00:09:52.468 => Clock : timerTask =>  
+2020-05-16 00:09:53.468 => Clock : timerTask =>  
+2020-05-16 00:09:54.471 => Clock : timerTask =>  
+2020-05-16 00:09:55.477 => Clock : timerTask =>  
+2020-05-16 00:09:56.482 => Clock : timerTask =>  
+2020-05-16 00:09:57.484 => Clock : timerTask =>  
+2020-05-16 00:09:58.486 => Clock : timerTask =>  
+2020-05-16 00:09:59.490 => Clock : timerTask =>  
+2020-05-16 00:10:00.494 => Clock : timerTask =>  
+2020-05-16 00:10:01.500 => Clock : timerTask =>  
+2020-05-16 00:10:02.502 => Clock : timerTask =>  
+2020-05-16 00:10:03.508 => Clock : timerTask =>  
+2020-05-16 00:10:04.509 => Clock : timerTask =>  
+2020-05-16 00:10:05.513 => Clock : timerTask =>  
+2020-05-16 00:10:06.517 => Clock : timerTask =>  
+2020-05-16 00:10:07.521 => Clock : timerTask =>  
+2020-05-16 00:10:08.525 => Clock : timerTask =>  
+2020-05-16 00:10:09.527 => Clock : timerTask =>  
+2020-05-16 00:10:10.532 => Clock : timerTask =>  
+2020-05-16 00:10:11.537 => Clock : timerTask =>  
+2020-05-16 00:10:12.537 => Clock : timerTask =>  
+2020-05-16 00:10:13.540 => Clock : timerTask =>  
+2020-05-16 00:10:14.543 => Clock : timerTask =>  
+2020-05-16 00:10:15.544 => Clock : timerTask =>  
+2020-05-16 00:10:16.546 => Clock : timerTask =>  
+2020-05-16 00:10:17.548 => Clock : timerTask =>  
+2020-05-16 00:10:18.550 => Clock : timerTask =>  
+2020-05-16 00:10:19.555 => Clock : timerTask =>  
+2020-05-16 00:10:20.558 => Clock : timerTask =>  
+2020-05-16 00:10:21.562 => Clock : timerTask =>  
+2020-05-16 00:10:22.563 => Clock : timerTask =>  
+2020-05-16 00:10:23.565 => Clock : timerTask =>  
+2020-05-16 00:10:24.566 => Clock : timerTask =>  
+2020-05-16 00:10:25.567 => Clock : timerTask =>  
+2020-05-16 00:10:26.568 => Clock : timerTask =>  
+2020-05-16 00:10:27.568 => Clock : timerTask =>  
+2020-05-16 00:10:28.569 => Clock : timerTask =>  
+2020-05-16 00:10:29.570 => Clock : timerTask =>  
+2020-05-16 00:10:30.572 => Clock : timerTask =>  
+2020-05-16 00:10:31.574 => Clock : timerTask =>  
+2020-05-16 00:10:32.574 => Clock : timerTask =>  
+2020-05-16 00:10:33.579 => Clock : timerTask =>  
+2020-05-16 00:10:34.582 => Clock : timerTask =>  
+2020-05-16 00:10:35.588 => Clock : timerTask =>  
+2020-05-16 00:10:36.588 => Clock : timerTask =>  
+2020-05-16 00:10:37.589 => Clock : timerTask =>  
+2020-05-16 00:10:38.594 => Clock : timerTask =>  
+2020-05-16 00:10:39.600 => Clock : timerTask =>  
+2020-05-16 00:10:40.604 => Clock : timerTask =>  
+2020-05-16 00:10:41.605 => Clock : timerTask =>  
+2020-05-16 00:10:41.982 => commande <quit> saisie 
+2020-05-16 00:10:41.982 => ===================================== 
+2020-05-16 00:10:41.984 =>          fin de session 
+2020-05-16 00:10:41.984 => ===================================== 
+2020-05-16 00:11:18.806 => ===================================== 
+2020-05-16 00:11:18.823 =>          Debut de session 
+2020-05-16 00:11:18.825 => ===================================== 
+2020-05-16 00:11:19.827 => Clock : timerTask =>  
+2020-05-16 00:11:20.831 => Clock : timerTask =>  
+2020-05-16 00:11:21.836 => Clock : timerTask =>  
+2020-05-16 00:11:22.841 => Clock : timerTask =>  
+2020-05-16 00:11:23.847 => Clock : timerTask =>  
+2020-05-16 00:11:24.851 => Clock : timerTask =>  
+2020-05-16 00:11:25.856 => Clock : timerTask =>  
+2020-05-16 00:11:26.861 => Clock : timerTask =>  
+2020-05-16 00:11:27.863 => Clock : timerTask =>  
+2020-05-16 00:11:28.868 => Clock : timerTask =>  
+2020-05-16 00:11:29.873 => Clock : timerTask =>  
+2020-05-16 00:11:30.878 => Clock : timerTask =>  
+2020-05-16 00:11:31.882 => Clock : timerTask =>  
+2020-05-16 00:11:32.887 => Clock : timerTask =>  
+2020-05-16 00:11:33.890 => Clock : timerTask =>  
+2020-05-16 00:11:34.895 => Clock : timerTask =>  
+2020-05-16 00:11:35.900 => Clock : timerTask =>  
+2020-05-16 00:11:36.904 => Clock : timerTask =>  
+2020-05-16 00:11:37.908 => Clock : timerTask =>  
+2020-05-16 00:11:38.912 => Clock : timerTask =>  
+2020-05-16 00:11:39.917 => Clock : timerTask =>  
+2020-05-16 00:11:40.922 => Clock : timerTask =>  
+2020-05-16 00:11:41.922 => Clock : timerTask =>  
+2020-05-16 00:11:42.924 => Clock : timerTask =>  
+2020-05-16 00:11:43.929 => Clock : timerTask =>  
+2020-05-16 00:11:44.930 => Clock : timerTask =>  
+2020-05-16 00:11:45.931 => Clock : timerTask =>  
+2020-05-16 00:11:46.935 => Clock : timerTask =>  
+2020-05-16 00:11:46.961 => commande <quit> saisie 
+2020-05-16 00:11:46.962 => ===================================== 
+2020-05-16 00:11:46.962 =>          fin de session 
+2020-05-16 00:11:46.962 => ===================================== 
+2020-05-16 00:11:54.321 => ===================================== 
+2020-05-16 00:11:54.337 =>          Debut de session 
+2020-05-16 00:11:54.339 => ===================================== 
+2020-05-16 00:11:55.343 => Clock : timerTask =>  
+2020-05-16 00:11:56.346 => Clock : timerTask =>  
+2020-05-16 00:11:57.351 => Clock : timerTask =>  
+2020-05-16 00:11:58.355 => Clock : timerTask =>  
+2020-05-16 00:11:59.359 => Clock : timerTask =>  
+2020-05-16 00:12:00.360 => Clock : timerTask =>  
+2020-05-16 00:12:01.362 => Clock : timerTask =>  
+2020-05-16 00:12:02.362 => Clock : timerTask =>  
+2020-05-16 00:12:03.363 => Clock : timerTask =>  
+2020-05-16 00:12:04.368 => Clock : timerTask =>  
+2020-05-16 00:12:05.369 => Clock : timerTask =>  
+2020-05-16 00:12:06.370 => Clock : timerTask =>  
+2020-05-16 00:12:07.375 => Clock : timerTask =>  
+2020-05-16 00:12:08.378 => Clock : timerTask =>  
+2020-05-16 00:12:09.380 => Clock : timerTask =>  
+2020-05-16 00:12:10.381 => Clock : timerTask =>  
+2020-05-16 00:12:11.382 => Clock : timerTask =>  
+2020-05-16 00:12:12.388 => Clock : timerTask =>  
+2020-05-16 00:12:13.393 => Clock : timerTask =>  
+2020-05-16 00:12:14.399 => Clock : timerTask =>  
+2020-05-16 00:12:15.401 => Clock : timerTask =>  
+2020-05-16 00:12:16.112 => commande <clock delai 10000> saisie 
+2020-05-16 00:12:16.407 => Clock : timerTask =>  
+2020-05-16 00:12:17.412 => Clock : timerTask =>  
+2020-05-16 00:12:18.415 => Clock : timerTask =>  
+2020-05-16 00:12:19.421 => Clock : timerTask =>  
+2020-05-16 00:12:20.426 => Clock : timerTask =>  
+2020-05-16 00:12:21.428 => Clock : timerTask =>  
+2020-05-16 00:12:22.434 => Clock : timerTask =>  
+2020-05-16 00:12:23.435 => Clock : timerTask =>  
+2020-05-16 00:12:24.436 => Clock : timerTask =>  
+2020-05-16 00:12:25.442 => Clock : timerTask =>  
+2020-05-16 00:12:26.442 => Clock : timerTask =>  
+2020-05-16 00:12:27.443 => Clock : timerTask =>  
+2020-05-16 00:12:28.443 => Clock : timerTask =>  
+2020-05-16 00:12:29.447 => Clock : timerTask =>  
+2020-05-16 00:12:30.452 => Clock : timerTask =>  
+2020-05-16 00:12:31.454 => Clock : timerTask =>  
+2020-05-16 00:12:32.455 => Clock : timerTask =>  
+2020-05-16 00:12:33.456 => Clock : timerTask =>  
+2020-05-16 00:12:34.459 => Clock : timerTask =>  
+2020-05-16 00:12:35.461 => Clock : timerTask =>  
+2020-05-16 00:12:36.465 => Clock : timerTask =>  
+2020-05-16 00:12:37.471 => Clock : timerTask =>  
+2020-05-16 00:12:38.476 => Clock : timerTask =>  
+2020-05-16 00:12:39.478 => Clock : timerTask =>  
+2020-05-16 00:12:40.484 => Clock : timerTask =>  
+2020-05-16 00:12:41.487 => Clock : timerTask =>  
+2020-05-16 00:12:42.488 => Clock : timerTask =>  
+2020-05-16 00:12:43.489 => Clock : timerTask =>  
+2020-05-16 00:12:44.495 => Clock : timerTask =>  
+2020-05-16 00:12:45.498 => Clock : timerTask =>  
+2020-05-16 00:12:46.503 => Clock : timerTask =>  
+2020-05-16 00:12:47.508 => Clock : timerTask =>  
+2020-05-16 00:12:48.511 => Clock : timerTask =>  
+2020-05-16 00:12:49.517 => Clock : timerTask =>  
+2020-05-16 00:12:50.522 => Clock : timerTask =>  
+2020-05-16 00:12:51.526 => Clock : timerTask =>  
+2020-05-16 00:12:52.530 => Clock : timerTask =>  
+2020-05-16 00:12:53.530 => Clock : timerTask =>  
+2020-05-16 00:12:54.120 => commande <quit> saisie 
+2020-05-16 00:12:54.120 => ===================================== 
+2020-05-16 00:12:54.122 =>          fin de session 
+2020-05-16 00:12:54.122 => ===================================== 
+2020-05-16 00:13:00.238 => ===================================== 
+2020-05-16 00:13:00.255 =>          Debut de session 
+2020-05-16 00:13:00.257 => ===================================== 
+2020-05-16 00:13:02.262 => Clock : timerTask =>  
+2020-05-16 00:13:04.267 => Clock : timerTask =>  
+2020-05-16 00:13:06.269 => Clock : timerTask =>  
+2020-05-16 00:13:08.271 => Clock : timerTask =>  
+2020-05-16 00:13:10.275 => Clock : timerTask =>  
+2020-05-16 00:13:12.281 => Clock : timerTask =>  
+2020-05-16 00:13:14.281 => Clock : timerTask =>  
+2020-05-16 00:13:16.286 => Clock : timerTask =>  
+2020-05-16 00:13:18.289 => Clock : timerTask =>  
+2020-05-16 00:13:19.967 => commande <clock delai 10000> saisie 
+2020-05-16 00:13:19.976 => Clock : commande <delai 10000> 
+2020-05-16 00:13:20.293 => Clock : timerTask =>  
+2020-05-16 00:13:22.299 => Clock : timerTask =>  
+2020-05-16 00:13:24.300 => Clock : timerTask =>  
+2020-05-16 00:13:26.305 => Clock : timerTask =>  
+2020-05-16 00:13:28.308 => Clock : timerTask =>  
+2020-05-16 00:13:29.231 => commande <clock> saisie 
+2020-05-16 00:13:30.309 => Clock : timerTask =>  
+2020-05-16 00:13:32.314 => Clock : timerTask =>  
+2020-05-16 00:13:34.320 => Clock : timerTask =>  
+2020-05-16 00:13:36.326 => Clock : timerTask =>  
+2020-05-16 00:13:38.329 => Clock : timerTask =>  
+2020-05-16 00:13:40.333 => Clock : timerTask =>  
+2020-05-16 00:13:42.336 => Clock : timerTask =>  
+2020-05-16 00:13:44.337 => Clock : timerTask =>  
+2020-05-16 00:13:46.343 => Clock : timerTask =>  
+2020-05-16 00:13:48.348 => Clock : timerTask =>  
+2020-05-16 00:13:50.350 => Clock : timerTask =>  
+2020-05-16 00:13:52.352 => Clock : timerTask =>  
+2020-05-16 00:13:54.357 => Clock : timerTask =>  
+2020-05-16 00:13:56.358 => Clock : timerTask =>  
+2020-05-16 00:13:58.364 => Clock : timerTask =>  
+2020-05-16 00:14:00.365 => Clock : timerTask =>  
+2020-05-16 00:14:02.370 => Clock : timerTask =>  
+2020-05-16 00:14:04.376 => Clock : timerTask =>  
+2020-05-16 00:14:06.381 => Clock : timerTask =>  
+2020-05-16 00:14:08.385 => Clock : timerTask =>  
+2020-05-16 00:14:10.391 => Clock : timerTask =>  
+2020-05-16 00:14:12.396 => Clock : timerTask =>  
+2020-05-16 00:14:22.254 => ===================================== 
+2020-05-16 00:14:22.269 =>          Debut de session 
+2020-05-16 00:14:22.271 => ===================================== 
+2020-05-16 00:14:24.279 => Clock : timerTask =>  
+2020-05-16 00:14:25.661 => commande <clock> saisie 
+2020-05-16 00:14:26.283 => Clock : timerTask =>  
+2020-05-16 00:14:28.286 => Clock : timerTask =>  
+2020-05-16 00:14:30.287 => Clock : timerTask =>  
+2020-05-16 00:14:32.287 => Clock : timerTask =>  
+2020-05-16 00:14:34.293 => Clock : timerTask =>  
+2020-05-16 00:14:36.299 => Clock : timerTask =>  
+2020-05-16 00:14:38.304 => Clock : timerTask =>  
+2020-05-16 00:14:40.306 => Clock : timerTask =>  
+2020-05-16 00:14:42.310 => Clock : timerTask =>  
+2020-05-16 00:14:44.314 => Clock : timerTask =>  
+2020-05-16 00:14:46.320 => Clock : timerTask =>  
+2020-05-16 00:14:48.326 => Clock : timerTask =>  
+2020-05-16 00:14:50.330 => Clock : timerTask =>  
+2020-05-16 00:14:52.331 => Clock : timerTask =>  
+2020-05-16 00:14:54.335 => Clock : timerTask =>  
+2020-05-16 00:14:56.336 => Clock : timerTask =>  
+2020-05-16 00:14:58.339 => Clock : timerTask =>  
+2020-05-16 00:15:00.340 => Clock : timerTask =>  
+2020-05-16 00:15:02.342 => Clock : timerTask =>  
+2020-05-16 00:15:04.345 => Clock : timerTask =>  
+2020-05-16 00:15:06.350 => Clock : timerTask =>  
+2020-05-16 00:15:08.352 => Clock : timerTask =>  
+2020-05-16 00:15:10.354 => Clock : timerTask =>  
+2020-05-16 00:15:12.357 => Clock : timerTask =>  
+2020-05-16 00:15:14.363 => Clock : timerTask =>  
+2020-05-16 00:15:16.369 => Clock : timerTask =>  
+2020-05-16 00:15:18.372 => Clock : timerTask =>  
+2020-05-16 00:15:20.377 => Clock : timerTask =>  
+2020-05-16 00:15:22.381 => Clock : timerTask =>  
+2020-05-16 00:15:24.383 => Clock : timerTask =>  
+2020-05-16 00:15:26.385 => Clock : timerTask =>  
+2020-05-16 00:15:28.387 => Clock : timerTask =>  
+2020-05-16 00:15:30.389 => Clock : timerTask =>  
+2020-05-16 00:15:32.392 => Clock : timerTask =>  
+2020-05-16 00:15:34.393 => Clock : timerTask =>  
+2020-05-16 00:15:36.395 => Clock : timerTask =>  
+2020-05-16 00:15:38.400 => Clock : timerTask =>  
+2020-05-16 00:15:40.405 => Clock : timerTask =>  
+2020-05-16 00:15:42.407 => Clock : timerTask =>  
+2020-05-16 00:15:44.408 => Clock : timerTask =>  
+2020-05-16 00:15:46.408 => Clock : timerTask =>  
+2020-05-16 00:15:48.413 => Clock : timerTask =>  
+2020-05-16 00:15:50.414 => Clock : timerTask =>  
+2020-05-16 00:15:52.418 => Clock : timerTask =>  
+2020-05-16 00:15:54.420 => Clock : timerTask =>  
+2020-05-16 00:15:56.426 => Clock : timerTask =>  
+2020-05-16 00:15:58.431 => Clock : timerTask =>  
+2020-05-16 00:16:00.434 => Clock : timerTask =>  
+2020-05-16 00:16:02.435 => Clock : timerTask =>  
+2020-05-16 00:16:04.441 => Clock : timerTask =>  
+2020-05-16 00:16:06.441 => Clock : timerTask =>  
+2020-05-16 00:16:08.443 => Clock : timerTask =>  
+2020-05-16 00:16:10.449 => Clock : timerTask =>  
+2020-05-16 00:16:12.450 => Clock : timerTask =>  
+2020-05-16 00:16:14.454 => Clock : timerTask =>  
+2020-05-16 00:16:16.456 => Clock : timerTask =>  
+2020-05-16 00:16:18.461 => Clock : timerTask =>  
+2020-05-16 00:16:20.467 => Clock : timerTask =>  
+2020-05-16 00:16:22.469 => Clock : timerTask =>  
+2020-05-16 00:16:24.475 => Clock : timerTask =>  
+2020-05-16 00:16:26.480 => Clock : timerTask =>  
+2020-05-16 00:16:28.486 => Clock : timerTask =>  
+2020-05-16 00:16:30.488 => Clock : timerTask =>  
+2020-05-16 00:16:32.491 => Clock : timerTask =>  
+2020-05-16 00:16:34.492 => Clock : timerTask =>  
+2020-05-16 00:16:36.493 => Clock : timerTask =>  
+2020-05-16 00:16:38.494 => Clock : timerTask =>  
+2020-05-16 00:16:40.499 => Clock : timerTask =>  
+2020-05-16 00:16:42.501 => Clock : timerTask =>  
+2020-05-16 00:16:44.505 => Clock : timerTask =>  
+2020-05-16 00:16:46.506 => Clock : timerTask =>  
+2020-05-16 00:16:48.507 => Clock : timerTask =>  
+2020-05-16 00:16:50.511 => Clock : timerTask =>  
+2020-05-16 00:16:52.517 => Clock : timerTask =>  
+2020-05-16 00:16:54.522 => Clock : timerTask =>  
+2020-05-16 00:16:56.528 => Clock : timerTask =>  
+2020-05-16 00:16:58.533 => Clock : timerTask =>  
+2020-05-16 00:17:00.535 => Clock : timerTask =>  
+2020-05-16 00:17:08.305 => ===================================== 
+2020-05-16 00:17:08.321 =>          Debut de session 
+2020-05-16 00:17:08.323 => ===================================== 
+2020-05-16 00:17:10.327 => Clock : timerTask =>  
+2020-05-16 00:17:12.329 => Clock : timerTask =>  
+2020-05-16 00:17:14.126 => commande <clock> saisie 
+2020-05-16 00:17:14.332 => Clock : timerTask =>  
+2020-05-16 00:17:16.337 => Clock : timerTask =>  
+2020-05-16 00:17:18.340 => Clock : timerTask =>  
+2020-05-16 00:17:19.262 => commande <clock sdfs> saisie 
+2020-05-16 00:17:19.262 => Clock : commande <sdfs> 
+2020-05-16 00:17:20.345 => Clock : timerTask =>  
+2020-05-16 00:17:22.347 => Clock : timerTask =>  
+2020-05-16 00:17:24.350 => Clock : timerTask =>  
+2020-05-16 00:17:26.352 => Clock : timerTask =>  
+2020-05-16 00:17:28.353 => Clock : timerTask =>  
+2020-05-16 00:17:30.355 => Clock : timerTask =>  
+2020-05-16 00:17:32.356 => Clock : timerTask =>  
+2020-05-16 00:17:34.359 => Clock : timerTask =>  
+2020-05-16 00:17:36.364 => Clock : timerTask =>  
+2020-05-16 00:17:36.517 => commande <clock > saisie 
+2020-05-16 00:17:36.517 => Clock : commande <> 
+2020-05-16 00:17:38.369 => Clock : timerTask =>  
+2020-05-16 00:17:40.373 => Clock : timerTask =>  
+2020-05-16 00:17:42.374 => Clock : timerTask =>  
+2020-05-16 00:17:44.378 => Clock : timerTask =>  
+2020-05-16 00:17:46.384 => Clock : timerTask =>  
+2020-05-16 00:17:48.385 => Clock : timerTask =>  
+2020-05-16 00:17:50.386 => Clock : timerTask =>  
+2020-05-16 00:17:52.392 => Clock : timerTask =>  
+2020-05-16 00:17:54.395 => Clock : timerTask =>  
+2020-05-16 00:17:56.396 => Clock : timerTask =>  
+2020-05-16 00:17:58.402 => Clock : timerTask =>  
+2020-05-16 00:18:00.405 => Clock : timerTask =>  
+2020-05-16 00:18:02.411 => Clock : timerTask =>  
+2020-05-16 00:18:04.412 => Clock : timerTask =>  
+2020-05-16 00:18:06.417 => Clock : timerTask =>  
+2020-05-16 00:18:08.422 => Clock : timerTask =>  
+2020-05-16 00:18:10.428 => Clock : timerTask =>  
+2020-05-16 00:18:12.434 => Clock : timerTask =>  
+2020-05-16 00:18:14.435 => Clock : timerTask =>  
+2020-05-16 00:18:16.440 => Clock : timerTask =>  
+2020-05-16 00:18:18.442 => Clock : timerTask =>  
+2020-05-16 00:18:20.448 => Clock : timerTask =>  
+2020-05-16 00:18:22.452 => Clock : timerTask =>  
+2020-05-16 00:18:24.454 => Clock : timerTask =>  
+2020-05-16 00:18:26.458 => Clock : timerTask =>  
+2020-05-16 00:18:28.459 => Clock : timerTask =>  
+2020-05-16 00:18:30.463 => Clock : timerTask =>  
+2020-05-16 00:18:32.464 => Clock : timerTask =>  
+2020-05-16 00:18:34.465 => Clock : timerTask =>  
+2020-05-16 00:18:36.469 => Clock : timerTask =>  
+2020-05-16 00:18:38.473 => Clock : timerTask =>  
+2020-05-16 00:18:40.479 => Clock : timerTask =>  
+2020-05-16 00:18:42.485 => Clock : timerTask =>  
+2020-05-16 00:18:44.487 => Clock : timerTask =>  
+2020-05-16 00:18:46.491 => Clock : timerTask =>  
+2020-05-16 00:18:48.496 => Clock : timerTask =>  
+2020-05-16 00:18:50.502 => Clock : timerTask =>  
+2020-05-16 00:18:52.503 => Clock : timerTask =>  
+2020-05-16 00:18:54.505 => Clock : timerTask =>  
+2020-05-16 00:18:56.510 => Clock : timerTask =>  
+2020-05-16 00:18:58.516 => Clock : timerTask =>  
+2020-05-16 00:19:00.518 => Clock : timerTask =>  
+2020-05-16 00:19:02.524 => Clock : timerTask =>  
+2020-05-16 00:19:04.528 => Clock : timerTask =>  
+2020-05-16 00:19:06.530 => Clock : timerTask =>  
+2020-05-16 00:19:08.535 => Clock : timerTask =>  
+2020-05-16 00:19:10.541 => Clock : timerTask =>  
+2020-05-16 00:19:12.544 => Clock : timerTask =>  
+2020-05-16 00:19:14.548 => Clock : timerTask =>  
+2020-05-16 00:19:16.549 => Clock : timerTask =>  
+2020-05-16 00:19:18.553 => Clock : timerTask =>  
+2020-05-16 00:19:20.554 => Clock : timerTask =>  
+2020-05-16 00:19:22.556 => Clock : timerTask =>  
+2020-05-16 00:19:24.559 => Clock : timerTask =>  
+2020-05-16 00:19:26.562 => Clock : timerTask =>  
+2020-05-16 00:19:28.566 => Clock : timerTask =>  
+2020-05-16 00:19:30.571 => Clock : timerTask =>  
+2020-05-16 00:19:32.577 => Clock : timerTask =>  
+2020-05-16 00:19:34.578 => Clock : timerTask =>  
+2020-05-16 00:19:36.582 => Clock : timerTask =>  
+2020-05-16 00:19:38.587 => Clock : timerTask =>  
+2020-05-16 00:19:40.591 => Clock : timerTask =>  
+2020-05-16 00:19:42.592 => Clock : timerTask =>  
+2020-05-16 00:19:44.592 => Clock : timerTask =>  
+2020-05-16 00:19:46.593 => Clock : timerTask =>  
+2020-05-16 00:19:48.598 => Clock : timerTask =>  
+2020-05-16 00:19:50.604 => Clock : timerTask =>  
+2020-05-16 00:19:52.606 => Clock : timerTask =>  
+2020-05-16 00:19:54.608 => Clock : timerTask =>  
+2020-05-16 00:19:56.612 => Clock : timerTask =>  
+2020-05-16 00:19:58.614 => Clock : timerTask =>  
+2020-05-16 00:20:00.618 => Clock : timerTask =>  
+2020-05-16 00:20:02.624 => Clock : timerTask =>  
+2020-05-16 00:20:04.629 => Clock : timerTask =>  
+2020-05-16 00:20:06.633 => Clock : timerTask =>  
+2020-05-16 00:20:08.637 => Clock : timerTask =>  
+2020-05-16 00:20:10.638 => Clock : timerTask =>  
+2020-05-16 00:20:12.641 => Clock : timerTask =>  
+2020-05-16 00:20:14.646 => Clock : timerTask =>  
+2020-05-16 00:20:16.649 => Clock : timerTask =>  
+2020-05-16 00:20:18.654 => Clock : timerTask =>  
+2020-05-16 00:20:20.660 => Clock : timerTask =>  
+2020-05-16 00:20:22.661 => Clock : timerTask =>  
+2020-05-16 00:20:24.667 => Clock : timerTask =>  
+2020-05-16 00:20:26.672 => Clock : timerTask =>  
+2020-05-16 00:20:28.678 => Clock : timerTask =>  
+2020-05-16 00:20:30.683 => Clock : timerTask =>  
+2020-05-16 00:20:32.686 => Clock : timerTask =>  
+2020-05-16 00:20:34.690 => Clock : timerTask =>  
+2020-05-16 00:20:36.694 => Clock : timerTask =>  
+2020-05-16 00:20:38.695 => Clock : timerTask =>  
+2020-05-16 00:20:40.700 => Clock : timerTask =>  
+2020-05-16 00:20:42.704 => Clock : timerTask =>  
+2020-05-16 00:20:44.705 => Clock : timerTask =>  
+2020-05-16 00:20:46.711 => Clock : timerTask =>  
+2020-05-16 00:20:48.716 => Clock : timerTask =>  
+2020-05-16 00:20:50.720 => Clock : timerTask =>  
+2020-05-16 00:20:52.726 => Clock : timerTask =>  
+2020-05-16 00:20:54.729 => Clock : timerTask =>  
+2020-05-16 00:20:56.735 => Clock : timerTask =>  
+2020-05-16 00:20:58.737 => Clock : timerTask =>  
+2020-05-16 00:21:00.738 => Clock : timerTask =>  
+2020-05-16 00:21:02.738 => Clock : timerTask =>  
+2020-05-16 00:21:04.739 => Clock : timerTask =>  
+2020-05-16 00:21:06.741 => Clock : timerTask =>  
+2020-05-16 00:21:08.742 => Clock : timerTask =>  
+2020-05-16 00:21:10.747 => Clock : timerTask =>  
+2020-05-16 00:21:12.750 => Clock : timerTask =>  
+2020-05-16 00:21:14.751 => Clock : timerTask =>  
+2020-05-16 00:21:16.754 => Clock : timerTask =>  
+2020-05-16 00:21:18.759 => Clock : timerTask =>  
+2020-05-16 00:21:20.763 => Clock : timerTask =>  
+2020-05-16 00:21:22.767 => Clock : timerTask =>  
+2020-05-16 00:21:24.771 => Clock : timerTask =>  
+2020-05-16 00:21:26.772 => Clock : timerTask =>  
+2020-05-16 00:21:28.778 => Clock : timerTask =>  
+2020-05-16 00:21:30.783 => Clock : timerTask =>  
+2020-05-16 00:21:32.785 => Clock : timerTask =>  
+2020-05-16 00:21:34.786 => Clock : timerTask =>  
+2020-05-16 00:21:36.787 => Clock : timerTask =>  
+2020-05-16 00:21:38.791 => Clock : timerTask =>  
+2020-05-16 00:21:40.797 => Clock : timerTask =>  
+2020-05-16 00:21:42.798 => Clock : timerTask =>  
+2020-05-16 00:21:44.800 => Clock : timerTask =>  
+2020-05-16 00:21:46.804 => Clock : timerTask =>  
+2020-05-16 00:21:48.809 => Clock : timerTask =>  
+2020-05-16 00:21:50.815 => Clock : timerTask =>  
+2020-05-16 00:21:52.819 => Clock : timerTask =>  
+2020-05-16 00:21:54.822 => Clock : timerTask =>  
+2020-05-16 00:21:56.823 => Clock : timerTask =>  
+2020-05-16 00:21:58.829 => Clock : timerTask =>  
+2020-05-16 00:22:00.833 => Clock : timerTask =>  
+2020-05-16 00:22:02.835 => Clock : timerTask =>  
+2020-05-16 00:22:04.838 => Clock : timerTask =>  
+2020-05-16 00:22:06.843 => Clock : timerTask =>  
+2020-05-16 00:22:08.843 => Clock : timerTask =>  
+2020-05-16 00:22:10.844 => Clock : timerTask =>  
+2020-05-16 00:22:12.844 => Clock : timerTask =>  
+2020-05-16 00:22:14.845 => Clock : timerTask =>  
+2020-05-16 00:22:16.849 => Clock : timerTask =>  
+2020-05-16 00:22:18.850 => Clock : timerTask =>  
+2020-05-16 00:22:20.851 => Clock : timerTask =>  
+2020-05-16 00:22:22.854 => Clock : timerTask =>  
+2020-05-16 00:22:24.857 => Clock : timerTask =>  
+2020-05-16 00:22:26.858 => Clock : timerTask =>  
+2020-05-16 00:22:28.864 => Clock : timerTask =>  
+2020-05-16 00:22:30.865 => Clock : timerTask =>  
+2020-05-16 00:22:32.870 => Clock : timerTask =>  
+2020-05-16 00:22:34.876 => Clock : timerTask =>  
+2020-05-16 00:22:36.881 => Clock : timerTask =>  
+2020-05-16 00:22:38.886 => Clock : timerTask =>  
+2020-05-16 00:22:40.892 => Clock : timerTask =>  
+2020-05-16 00:22:42.898 => Clock : timerTask =>  
+2020-05-16 00:22:44.903 => Clock : timerTask =>  
+2020-05-16 00:22:46.909 => Clock : timerTask =>  
+2020-05-16 00:22:48.912 => Clock : timerTask =>  
+2020-05-16 00:22:50.913 => Clock : timerTask =>  
+2020-05-16 00:22:52.914 => Clock : timerTask =>  
+2020-05-16 00:22:54.917 => Clock : timerTask =>  
+2020-05-16 00:22:56.921 => Clock : timerTask =>  
+2020-05-16 00:22:58.927 => Clock : timerTask =>  
+2020-05-16 00:23:00.930 => Clock : timerTask =>  
+2020-05-16 00:23:02.931 => Clock : timerTask =>  
+2020-05-16 00:23:04.932 => Clock : timerTask =>  
+2020-05-16 00:23:06.937 => Clock : timerTask =>  
+2020-05-16 00:23:08.941 => Clock : timerTask =>  
+2020-05-16 00:23:10.945 => Clock : timerTask =>  
+2020-05-16 00:23:12.946 => Clock : timerTask =>  
+2020-05-16 00:23:14.848 => commande <quit> saisie 
+2020-05-16 00:23:14.848 => ===================================== 
+2020-05-16 00:23:14.850 =>          fin de session 
+2020-05-16 00:23:14.850 => ===================================== 
+2020-05-16 00:26:36.549 => ===================================== 
+2020-05-16 00:26:36.565 =>          Debut de session 
+2020-05-16 00:26:36.567 => ===================================== 
+2020-05-16 00:26:38.571 => Clock : timerTask =>  
+2020-05-16 00:26:40.577 => Clock : timerTask =>  
+2020-05-16 00:26:42.583 => Clock : timerTask =>  
+2020-05-16 00:26:44.588 => Clock : timerTask =>  
+2020-05-16 00:26:46.592 => Clock : timerTask =>  
+2020-05-16 00:26:48.597 => Clock : timerTask =>  
+2020-05-16 00:26:50.598 => Clock : timerTask =>  
+2020-05-16 00:26:51.280 => commande <clock stop> saisie 
+2020-05-16 00:26:51.289 => Clock : commande <stop> 
+2020-05-16 00:26:52.604 => Clock : timerTask =>  
+2020-05-16 00:26:54.609 => Clock : timerTask =>  
+2020-05-16 00:26:56.613 => Clock : timerTask =>  
+2020-05-16 00:26:58.616 => Clock : timerTask =>  
+2020-05-16 00:27:00.621 => Clock : timerTask =>  
+2020-05-16 00:27:02.627 => Clock : timerTask =>  
+2020-05-16 00:27:04.633 => Clock : timerTask =>  
+2020-05-16 00:27:06.637 => Clock : timerTask =>  
+2020-05-16 00:27:08.643 => Clock : timerTask =>  
+2020-05-16 00:27:10.647 => Clock : timerTask =>  
+2020-05-16 00:27:12.653 => Clock : timerTask =>  
+2020-05-16 00:27:14.656 => Clock : timerTask =>  
+2020-05-16 00:27:16.657 => Clock : timerTask =>  
+2020-05-16 00:27:18.661 => Clock : timerTask =>  
+2020-05-16 00:27:20.667 => Clock : timerTask =>  
+2020-05-16 00:27:22.672 => Clock : timerTask =>  
+2020-05-16 00:27:24.678 => Clock : timerTask =>  
+2020-05-16 00:27:26.681 => Clock : timerTask =>  
+2020-05-16 00:27:28.687 => Clock : timerTask =>  
+2020-05-16 00:27:30.692 => Clock : timerTask =>  
+2020-05-16 00:27:32.698 => Clock : timerTask =>  
+2020-05-16 00:27:34.704 => Clock : timerTask =>  
+2020-05-16 00:27:36.705 => Clock : timerTask =>  
+2020-05-16 00:27:38.706 => Clock : timerTask =>  
+2020-05-16 00:27:40.712 => Clock : timerTask =>  
+2020-05-16 00:27:42.718 => Clock : timerTask =>  
+2020-05-16 00:27:44.724 => Clock : timerTask =>  
+2020-05-16 00:27:46.726 => Clock : timerTask =>  
+2020-05-16 00:27:48.731 => Clock : timerTask =>  
+2020-05-16 00:27:50.732 => Clock : timerTask =>  
+2020-05-16 00:27:52.738 => Clock : timerTask =>  
+2020-05-16 00:27:54.744 => Clock : timerTask =>  
+2020-05-16 00:27:56.749 => Clock : timerTask =>  
+2020-05-16 00:27:58.752 => Clock : timerTask =>  
+2020-05-16 00:28:00.754 => Clock : timerTask =>  
+2020-05-16 00:28:02.760 => Clock : timerTask =>  
+2020-05-16 00:28:04.761 => Clock : timerTask =>  
+2020-05-16 00:28:06.762 => Clock : timerTask =>  
+2020-05-16 00:28:08.763 => Clock : timerTask =>  
+2020-05-16 00:28:10.764 => Clock : timerTask =>  
+2020-05-16 00:28:12.766 => Clock : timerTask =>  
+2020-05-16 00:28:14.767 => Clock : timerTask =>  
+2020-05-16 00:28:16.768 => Clock : timerTask =>  
+2020-05-16 00:28:18.769 => Clock : timerTask =>  
+2020-05-16 00:28:20.778 => Clock : timerTask =>  
+2020-05-16 00:28:22.779 => Clock : timerTask =>  
+2020-05-16 00:28:24.784 => Clock : timerTask =>  
+2020-05-16 00:28:26.787 => Clock : timerTask =>  
+2020-05-16 00:28:28.792 => Clock : timerTask =>  
+2020-05-16 00:28:30.796 => Clock : timerTask =>  
+2020-05-16 00:28:32.799 => Clock : timerTask =>  
+2020-05-16 00:28:34.805 => Clock : timerTask =>  
+2020-05-16 00:28:36.807 => Clock : timerTask =>  
+2020-05-16 00:28:37.938 => commande <quit> saisie 
+2020-05-16 00:28:37.939 => ===================================== 
+2020-05-16 00:28:37.941 =>          fin de session 
+2020-05-16 00:28:37.941 => ===================================== 
+2020-05-16 00:28:44.007 => ===================================== 
+2020-05-16 00:28:44.023 =>          Debut de session 
+2020-05-16 00:28:44.025 => ===================================== 
+2020-05-16 00:28:46.033 => Clock : timerTask =>  
+2020-05-16 00:28:48.035 => Clock : timerTask =>  
+2020-05-16 00:28:50.041 => Clock : timerTask =>  
+2020-05-16 00:28:52.046 => Clock : timerTask =>  
+2020-05-16 00:28:52.379 => commande <clock stop> saisie 
+2020-05-16 00:28:52.390 => Clock : commande <stop> 
+2020-05-16 00:29:00.666 => commande <clock start> saisie 
+2020-05-16 00:29:00.667 => Clock : commande <start> 
+2020-05-16 00:30:27.057 => ===================================== 
+2020-05-16 00:30:27.073 =>          Debut de session 
+2020-05-16 00:30:27.074 => ===================================== 
+2020-05-16 00:30:29.080 => Clock : timerTask =>  
+2020-05-16 00:30:31.086 => Clock : timerTask =>  
+2020-05-16 00:30:33.092 => Clock : timerTask =>  
+2020-05-16 00:30:33.975 => commande <clock stop> saisie 
+2020-05-16 00:30:33.984 => Clock : commande <stop> 
+2020-05-16 00:32:05.387 => commande <clock start> saisie 
+2020-05-16 00:32:05.387 => Clock : commande <start> 
+2020-05-16 00:32:07.391 => Clock : timerTask =>  
+2020-05-16 00:32:09.397 => Clock : timerTask =>  
+2020-05-16 00:32:11.403 => Clock : timerTask =>  
+2020-05-16 00:32:13.407 => Clock : timerTask =>  
+2020-05-16 00:32:15.413 => Clock : timerTask =>  
+2020-05-16 00:32:17.418 => Clock : timerTask =>  
+2020-05-16 00:32:19.424 => Clock : timerTask =>  
+2020-05-16 00:32:21.430 => Clock : timerTask =>  
+2020-05-16 00:32:23.435 => Clock : timerTask =>  
+2020-05-16 00:32:25.440 => Clock : timerTask =>  
+2020-05-16 00:32:26.785 => commande <clock delai> saisie 
+2020-05-16 00:32:26.786 => Clock : commande <delai> 
+2020-05-16 00:32:27.445 => Clock : timerTask =>  
+2020-05-16 00:32:29.450 => Clock : timerTask =>  
+2020-05-16 00:32:31.456 => Clock : timerTask =>  
+2020-05-16 00:32:33.462 => Clock : timerTask =>  
+2020-05-16 00:32:35.468 => Clock : timerTask =>  
+2020-05-16 00:32:37.468 => Clock : timerTask =>  
+2020-05-16 00:32:39.473 => Clock : timerTask =>  
+2020-05-16 00:32:41.475 => Clock : timerTask =>  
+2020-05-16 00:32:43.480 => Clock : timerTask =>  
+2020-05-16 00:32:45.486 => Clock : timerTask =>  
+2020-05-16 00:32:47.487 => Clock : timerTask =>  
+2020-05-16 00:32:49.492 => Clock : timerTask =>  
+2020-05-16 00:32:51.493 => Clock : timerTask =>  
+2020-05-16 00:32:53.495 => Clock : timerTask =>  
+2020-05-16 00:32:55.501 => Clock : timerTask =>  
+2020-05-16 00:32:57.503 => Clock : timerTask =>  
+2020-05-16 00:32:59.507 => Clock : timerTask =>  
+2020-05-16 00:33:01.508 => Clock : timerTask =>  
+2020-05-16 00:33:03.513 => Clock : timerTask =>  
+2020-05-16 00:33:05.515 => Clock : timerTask =>  
+2020-05-16 00:33:07.516 => Clock : timerTask =>  
+2020-05-16 00:33:09.521 => Clock : timerTask =>  
+2020-05-16 00:33:11.526 => Clock : timerTask =>  
+2020-05-16 00:33:13.529 => Clock : timerTask =>  
+2020-05-16 00:33:15.533 => Clock : timerTask =>  
+2020-05-16 00:33:17.534 => Clock : timerTask =>  
+2020-05-16 00:33:19.540 => Clock : timerTask =>  
+2020-05-16 00:33:21.542 => Clock : timerTask =>  
+2020-05-16 00:33:23.546 => Clock : timerTask =>  
+2020-05-16 00:33:25.552 => Clock : timerTask =>  
+2020-05-16 00:33:27.558 => Clock : timerTask =>  
+2020-05-16 00:33:29.561 => Clock : timerTask =>  
+2020-05-16 00:33:31.567 => Clock : timerTask =>  
+2020-05-16 00:33:33.572 => Clock : timerTask =>  
+2020-05-16 00:33:35.576 => Clock : timerTask =>  
+2020-05-16 00:33:37.577 => Clock : timerTask =>  
+2020-05-16 00:33:39.584 => Clock : timerTask =>  
+2020-05-16 00:33:41.590 => Clock : timerTask =>  
+2020-05-16 00:33:43.592 => Clock : timerTask =>  
+2020-05-16 00:33:45.597 => Clock : timerTask =>  
+2020-05-16 00:33:47.603 => Clock : timerTask =>  
+2020-05-16 00:33:49.604 => Clock : timerTask =>  
+2020-05-16 00:33:51.610 => Clock : timerTask =>  
+2020-05-16 00:33:53.611 => Clock : timerTask =>  
+2020-05-16 00:33:55.612 => Clock : timerTask =>  
+2020-05-16 00:33:57.615 => Clock : timerTask =>  
+2020-05-16 00:33:59.620 => Clock : timerTask =>  
+2020-05-16 00:34:01.625 => Clock : timerTask =>  
+2020-05-16 00:34:03.628 => Clock : timerTask =>  
+2020-05-16 00:34:05.631 => Clock : timerTask =>  
+2020-05-16 00:34:07.632 => Clock : timerTask =>  
+2020-05-16 00:34:09.634 => Clock : timerTask =>  
+2020-05-16 00:34:11.636 => Clock : timerTask =>  
+2020-05-16 00:34:13.642 => Clock : timerTask =>  
+2020-05-16 00:34:15.646 => Clock : timerTask =>  
+2020-05-16 00:34:17.648 => Clock : timerTask =>  
+2020-05-16 00:34:19.653 => Clock : timerTask =>  
+2020-05-16 00:34:21.659 => Clock : timerTask =>  
+2020-05-16 00:34:23.665 => Clock : timerTask =>  
+2020-05-16 00:34:25.671 => Clock : timerTask =>  
+2020-05-16 00:34:27.674 => Clock : timerTask =>  
+2020-05-16 00:34:29.677 => Clock : timerTask =>  
+2020-05-16 00:34:31.680 => Clock : timerTask =>  
+2020-05-16 00:34:33.684 => Clock : timerTask =>  
+2020-05-16 00:34:35.686 => Clock : timerTask =>  
+2020-05-16 00:34:37.686 => Clock : timerTask =>  
+2020-05-16 00:34:39.691 => Clock : timerTask =>  
+2020-05-16 00:34:41.692 => Clock : timerTask =>  
+2020-05-16 00:34:43.698 => Clock : timerTask =>  
+2020-05-16 00:34:45.700 => Clock : timerTask =>  
+2020-05-16 00:34:47.705 => Clock : timerTask =>  
+2020-05-16 00:34:49.706 => Clock : timerTask =>  
+2020-05-16 00:34:51.712 => Clock : timerTask =>  
+2020-05-16 00:34:53.718 => Clock : timerTask =>  
+2020-05-16 00:34:55.723 => Clock : timerTask =>  
+2020-05-16 00:35:02.928 => ===================================== 
+2020-05-16 00:35:02.944 =>          Debut de session 
+2020-05-16 00:35:02.946 => ===================================== 
+2020-05-16 00:35:04.949 => Clock : timerTask =>  
+2020-05-16 00:35:06.954 => Clock : timerTask =>  
+2020-05-16 00:35:08.955 => Clock : timerTask =>  
+2020-05-16 00:35:10.156 => commande <clock stop> saisie 
+2020-05-16 00:35:10.166 => Clock : commande <stop> 
+2020-05-16 00:35:10.171 => Clock : timer sropped 
+2020-05-16 00:35:16.595 => commande <clock start> saisie 
+2020-05-16 00:35:16.596 => Clock : commande <start> 
+2020-05-16 00:35:16.598 => Clock : timer started 
+2020-05-16 00:35:18.600 => Clock : timerTask =>  
+2020-05-16 00:35:20.606 => Clock : timerTask =>  
+2020-05-16 00:35:22.612 => Clock : timerTask =>  
+2020-05-16 00:35:24.617 => Clock : timerTask =>  
+2020-05-16 00:35:26.621 => Clock : timerTask =>  
+2020-05-16 00:35:28.626 => Clock : timerTask =>  
+2020-05-16 00:35:29.451 => commande <clock delai 500> saisie 
+2020-05-16 00:35:29.451 => Clock : commande <delai 500> 
+2020-05-16 00:35:30.631 => Clock : timerTask =>  
+2020-05-16 00:35:32.637 => Clock : timerTask =>  
+2020-05-16 00:35:34.641 => Clock : timerTask =>  
+2020-05-16 00:35:36.647 => Clock : timerTask =>  
+2020-05-16 00:35:38.649 => Clock : timerTask =>  
+2020-05-16 00:35:40.654 => Clock : timerTask =>  
+2020-05-16 00:35:42.655 => Clock : timerTask =>  
+2020-05-16 00:35:44.657 => Clock : timerTask =>  
+2020-05-16 00:35:46.657 => Clock : timerTask =>  
+2020-05-16 00:35:48.663 => Clock : timerTask =>  
+2020-05-16 00:35:50.669 => Clock : timerTask =>  
+2020-05-16 00:35:52.674 => Clock : timerTask =>  
+2020-05-16 00:35:54.679 => Clock : timerTask =>  
+2020-05-16 00:35:56.685 => Clock : timerTask =>  
+2020-05-16 00:35:58.691 => Clock : timerTask =>  
+2020-05-16 00:36:00.696 => Clock : timerTask =>  
+2020-05-16 00:36:02.698 => Clock : timerTask =>  
+2020-05-16 00:36:04.701 => Clock : timerTask =>  
+2020-05-16 00:36:06.702 => Clock : timerTask =>  
+2020-05-16 00:36:08.708 => Clock : timerTask =>  
+2020-05-16 00:36:10.713 => Clock : timerTask =>  
+2020-05-16 00:36:12.718 => Clock : timerTask =>  
+2020-05-16 00:36:14.719 => Clock : timerTask =>  
+2020-05-16 00:36:16.725 => Clock : timerTask =>  
+2020-05-16 00:36:18.731 => Clock : timerTask =>  
+2020-05-16 00:36:20.736 => Clock : timerTask =>  
+2020-05-16 00:36:22.740 => Clock : timerTask =>  
+2020-05-16 00:36:24.741 => Clock : timerTask =>  
+2020-05-16 00:36:26.745 => Clock : timerTask =>  
+2020-05-16 00:36:28.750 => Clock : timerTask =>  
+2020-05-16 00:36:30.756 => Clock : timerTask =>  
+2020-05-16 00:36:32.761 => Clock : timerTask =>  
+2020-05-16 00:36:34.764 => Clock : timerTask =>  
+2020-05-16 00:36:36.768 => Clock : timerTask =>  
+2020-05-16 00:36:38.772 => Clock : timerTask =>  
+2020-05-16 00:36:40.776 => Clock : timerTask =>  
+2020-05-16 00:36:42.782 => Clock : timerTask =>  
+2020-05-16 00:36:44.787 => Clock : timerTask =>  
+2020-05-16 00:36:46.793 => Clock : timerTask =>  
+2020-05-16 00:36:48.799 => Clock : timerTask =>  
+2020-05-16 00:36:50.802 => Clock : timerTask =>  
+2020-05-16 00:36:52.808 => Clock : timerTask =>  
+2020-05-16 00:36:54.814 => Clock : timerTask =>  
+2020-05-16 00:36:56.819 => Clock : timerTask =>  
+2020-05-16 00:36:58.824 => Clock : timerTask =>  
+2020-05-16 00:37:00.824 => Clock : timerTask =>  
+2020-05-16 00:37:02.826 => Clock : timerTask =>  
+2020-05-16 00:37:04.827 => Clock : timerTask =>  
+2020-05-16 00:37:06.832 => Clock : timerTask =>  
+2020-05-16 00:37:08.838 => Clock : timerTask =>  
+2020-05-16 00:37:10.842 => Clock : timerTask =>  
+2020-05-16 00:37:12.843 => Clock : timerTask =>  
+2020-05-16 00:37:14.848 => Clock : timerTask =>  
+2020-05-16 00:37:16.854 => Clock : timerTask =>  
+2020-05-16 00:37:18.855 => Clock : timerTask =>  
+2020-05-16 00:37:20.861 => Clock : timerTask =>  
+2020-05-16 00:37:22.866 => Clock : timerTask =>  
+2020-05-16 00:37:24.872 => Clock : timerTask =>  
+2020-05-16 00:37:26.873 => Clock : timerTask =>  
+2020-05-16 00:37:28.877 => Clock : timerTask =>  
+2020-05-16 00:37:30.879 => Clock : timerTask =>  
+2020-05-16 00:37:32.885 => Clock : timerTask =>  
+2020-05-16 00:37:34.885 => Clock : timerTask =>  
+2020-05-16 00:37:36.887 => Clock : timerTask =>  
+2020-05-16 00:37:38.891 => Clock : timerTask =>  
+2020-05-16 00:37:40.895 => Clock : timerTask =>  
+2020-05-16 00:37:42.900 => Clock : timerTask =>  
+2020-05-16 00:37:44.901 => Clock : timerTask =>  
+2020-05-16 00:37:46.907 => Clock : timerTask =>  
+2020-05-16 00:37:48.909 => Clock : timerTask =>  
+2020-05-16 00:37:50.910 => Clock : timerTask =>  
+2020-05-16 00:37:52.915 => Clock : timerTask =>  
+2020-05-16 00:37:54.920 => Clock : timerTask =>  
+2020-05-16 00:37:56.922 => Clock : timerTask =>  
+2020-05-16 00:37:58.924 => Clock : timerTask =>  
+2020-05-16 00:38:00.926 => Clock : timerTask =>  
+2020-05-16 00:38:02.932 => Clock : timerTask =>  
+2020-05-16 00:38:04.938 => Clock : timerTask =>  
+2020-05-16 00:38:06.941 => Clock : timerTask =>  
+2020-05-16 00:38:08.946 => Clock : timerTask =>  
+2020-05-16 00:38:10.948 => Clock : timerTask =>  
+2020-05-16 00:38:12.949 => Clock : timerTask =>  
+2020-05-16 00:38:14.950 => Clock : timerTask =>  
+2020-05-16 00:38:15.898 => commande <quit> saisie 
+2020-05-16 00:38:15.898 => ===================================== 
+2020-05-16 00:38:15.900 =>          fin de session 
+2020-05-16 00:38:15.902 => ===================================== 
+2020-05-16 00:38:42.105 => ===================================== 
+2020-05-16 00:38:42.120 =>          Debut de session 
+2020-05-16 00:38:42.122 => ===================================== 
+2020-05-16 00:38:44.131 => Clock : timerTask =>  
+2020-05-16 00:38:46.136 => Clock : timerTask =>  
+2020-05-16 00:38:48.142 => Clock : timerTask =>  
+2020-05-16 00:38:50.148 => Clock : timerTask =>  
+2020-05-16 00:38:52.149 => Clock : timerTask =>  
+2020-05-16 00:38:54.151 => Clock : timerTask =>  
+2020-05-16 00:38:56.153 => Clock : timerTask =>  
+2020-05-16 00:38:58.158 => Clock : timerTask =>  
+2020-05-16 00:39:00.161 => Clock : timerTask =>  
+2020-05-16 00:39:02.162 => Clock : timerTask =>  
+2020-05-16 00:39:04.167 => Clock : timerTask =>  
+2020-05-16 00:39:06.167 => Clock : timerTask =>  
+2020-05-16 00:39:08.173 => Clock : timerTask =>  
+2020-05-16 00:39:10.179 => Clock : timerTask =>  
+2020-05-16 00:39:12.183 => Clock : timerTask =>  
+2020-05-16 00:39:14.168 => commande <clock stop> saisie 
+2020-05-16 00:39:14.177 => Clock : commande <stop> 
+2020-05-16 00:39:14.182 => Clock : timer sropped 
+2020-05-16 00:39:21.431 => commande <clock start> saisie 
+2020-05-16 00:39:21.432 => Clock : commande <start> 
+2020-05-16 00:39:21.433 => Clock : timer started 
+2020-05-16 00:39:23.436 => Clock : timerTask =>  
+2020-05-16 00:39:25.437 => Clock : timerTask =>  
+2020-05-16 00:39:27.437 => Clock : timerTask =>  
+2020-05-16 00:39:29.441 => Clock : timerTask =>  
+2020-05-16 00:39:30.751 => commande <clock delai> saisie 
+2020-05-16 00:39:30.752 => Clock : commande <delai> 
+2020-05-16 00:39:31.443 => Clock : timerTask =>  
+2020-05-16 00:39:33.448 => Clock : timerTask =>  
+2020-05-16 00:39:35.450 => Clock : timerTask =>  
+2020-05-16 00:39:37.453 => Clock : timerTask =>  
+2020-05-16 00:39:39.454 => Clock : timerTask =>  
+2020-05-16 00:39:41.459 => Clock : timerTask =>  
+2020-05-16 00:39:43.463 => Clock : timerTask =>  
+2020-05-16 00:39:45.465 => Clock : timerTask =>  
+2020-05-16 00:39:47.469 => Clock : timerTask =>  
+2020-05-16 00:39:49.470 => Clock : timerTask =>  
+2020-05-16 00:39:51.471 => Clock : timerTask =>  
+2020-05-16 00:39:53.472 => Clock : timerTask =>  
+2020-05-16 00:39:55.476 => Clock : timerTask =>  
+2020-05-16 00:39:57.480 => Clock : timerTask =>  
+2020-05-16 00:39:59.485 => Clock : timerTask =>  
+2020-05-16 00:40:01.490 => Clock : timerTask =>  
+2020-05-16 00:40:02.854 => commande <clock delai 1000> saisie 
+2020-05-16 00:40:02.854 => Clock : commande <delai 1000> 
+2020-05-16 00:40:02.856 => Clock : timer delai updated Monde.Clock@506c589e.delai 
+2020-05-16 00:40:03.492 => Clock : timerTask =>  
+2020-05-16 00:40:04.498 => Clock : timerTask =>  
+2020-05-16 00:40:05.504 => Clock : timerTask =>  
+2020-05-16 00:40:06.507 => Clock : timerTask =>  
+2020-05-16 00:40:07.509 => Clock : timerTask =>  
+2020-05-16 00:40:08.515 => Clock : timerTask =>  
+2020-05-16 00:40:09.516 => Clock : timerTask =>  
+2020-05-16 00:40:10.517 => Clock : timerTask =>  
+2020-05-16 00:40:11.519 => Clock : timerTask =>  
+2020-05-16 00:40:12.522 => Clock : timerTask =>  
+2020-05-16 00:40:13.528 => Clock : timerTask =>  
+2020-05-16 00:40:14.325 => commande <quit> saisie 
+2020-05-16 00:40:14.325 => ===================================== 
+2020-05-16 00:40:14.327 =>          fin de session 
+2020-05-16 00:40:14.327 => ===================================== 
