@@ -1,0 +1,17 @@
+Continent;3;2;europe;0
+Pays;4;3;france;0
+Pays;5;3;allemagne;0
+Pays;6;3;espagne;0
+Pays;7;3;italie;0
+Planete;2;1;terre;0
+Planete;10;1;mars;0
+Univers;1;0;monUnivers;0
+Univers;8;0;autreUniv;0
+Continent;9;2;afrique;0
+Continent;11;2;amerique;0
+Pays;12;9;maroc;0
+Pays;13;9;cameroun;0
+Pays;14;9;egypte;0
+Pays;15;11;perou;0
+Individu;16;4;pierre;Male;0
+Individu;17;4;louise;Femelle;0

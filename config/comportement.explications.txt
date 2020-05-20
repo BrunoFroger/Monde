@@ -1,0 +1,12 @@
+description des fichiers de comportement
+
+
+regle d'ecriture
+- 1 ligne par règle
+- exemple de ligne :
+    <variable>;<operateur>;<valeur>;<action>
+- <variable> : designe la variable sur laquelle se porte le test
+- <operateur> : disigne l'operation qui sera effectuée entre la <variable> et la <valeur>
+- <valeur> : valeur fixe (pas de variable pour l'instant) a prendre en compte pour l'operation ci dessus
+- <action> : nom de la fonction a appeler si l'operation est variable
+

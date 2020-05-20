@@ -20,26 +20,64 @@ class Clock{
     var timer = Timer()
     var delai:Long
 
+    //--------------------------
+    //      constructor
+    //--------------------------
     constructor(delai:Long){
         this.delai = delai
     }
 
+    //--------------------------
+    //      start
+    //--------------------------
     fun start(){
         timer.schedule(delai){
             clockTask()
         }
     }
 
+    //--------------------------
+    //      clockTask
+    //--------------------------
     fun clockTask(){
-        log("Clock : timerTask => ")
+        //log("Clock : timerTask => ")
+        // restart timer
         start()
+
+        // display supervision if active
+        if (isActiveSupervision){
+            supervision()
+            displayPrompt()
+        }
+
+        // launch update for each object
+        for (item in listeItems){
+            when(item){
+                is Animal -> item.refresh()
+                is Individu -> item.refresh()
+                is Continent -> item.refresh()
+                is Pays -> item.refresh()
+                is Planete -> item.refresh()
+                is Univers -> item.refresh()
+                else -> {
+                    log("Clock : refresh => $item.type inconnu")
+                }
+            }
+            //item.refresh()
+        }
     }
 
+    //--------------------------
+    //      stop
+    //--------------------------
     fun stop(){
         timer.cancel()
         timer.purge()    
     }
 
+    //--------------------------
+    //      delai
+    //--------------------------
     fun delai(delai:Long){
         this.delai=delai
     }
@@ -48,6 +86,9 @@ class Clock{
         return this.delai
     }
 
+    //--------------------------
+    //      commande
+    //--------------------------
     fun commande(cde:String){
         log("Clock : commande <$cde>")
         var listeParametres:List<String> = cde.split(" ")
@@ -76,4 +117,10 @@ class Clock{
             }
         }
     }
+}
+
+//--------------------------
+//      help
+//--------------------------
+fun help(){
 }

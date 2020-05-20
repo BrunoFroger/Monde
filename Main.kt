@@ -16,8 +16,14 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 var shell:Shell = Shell()
-var clock = Clock(2000)
+var clock = Clock(5000)
 
+enum class Sexe{MALE, FEMELLE}
+data class Comportement(val variable:String, val operateur:String, val valeur:String, val action:String)
+
+//--------------------------
+//      main
+//--------------------------
 fun main(args: Array<String>){
     log("=====================================")
     log("         Debut de session")
@@ -26,6 +32,7 @@ fun main(args: Array<String>){
     // Lancement du shell de pilotage
     shell.run()
     clock.stop()
+    
     log("=====================================")
     log("         fin de session")
     log("=====================================")
@@ -34,6 +41,9 @@ fun main(args: Array<String>){
 
 var logFilename:String="monde.log"
 
+//--------------------------
+//      log
+//--------------------------
 public fun log(message:String){
     val current = LocalDateTime.now()
     val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")
@@ -42,3 +52,4 @@ public fun log(message:String){
 
     file.appendText("$date => $message \n")
 }
+
