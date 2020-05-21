@@ -11,7 +11,7 @@ package Monde
 
 import java.io.File
 import Monde.Shell.*
-
+import com.google.common.collect.Lists
 
 class Individu{
     
@@ -23,10 +23,12 @@ class Individu{
     var age:Int = 0
     var comportementFilename:String?=""
     var comportementFile:File? =null
-    var listeComportements = ArrayList<Comportement>()
+    var listeComportements = ArrayList<ArrayList<String>>()
     var marie:Boolean = false
-    var listeEnfants = ArrayList<Individu>
-    var conjoint:Individu?
+    var dureeMariage:Int=0
+    var listeEnfants = ArrayList<Individu>()
+    var conjoint:Individu?=null
+    var tauxMaladie:Int=0
 
     //--------------------------
     //      constructor
@@ -59,7 +61,7 @@ class Individu{
             comportementFile = File(comportementFilename)
             loadComportement(comportementFile)
         } finally {
-            println("lecture fichier configuration $type ok")
+            log("lecture fichier configuration $type $nom ok")
         }
     }
 
@@ -67,32 +69,59 @@ class Individu{
     //      loadComportement
     //--------------------------
     private fun loadComportement(file:File?){
-        log("$type : loadComportement => chargement du fichier $comportementFilename")
+        //log("$type : loadComportement => chargement du fichier $comportementFilename")
         try{
             file!!.forEachLine{
-                println("$type : loadComportement => ligne lue = <$it>")
+                //log("$type : loadComportement => ligne lue = <$it>")
+                if (it.length == 0) return@forEachLine
                 if (it[0] == '#') return@forEachLine
-                var tmp = it.split(";")
+                var ligne:String = suppEspaces(it)
+                var tmp = ligne.split(" ")
                 println(tmp.toString())
-                if(tmp.size != 4){
-                    println("ERREUR ligne incorrecte dans le fichier comportement <$it>")
-                } else {
-                    // sauvegarde de ce comportement dans la liste
-                    var item = Comportement(tmp[0],tmp[1],tmp[2],tmp[3])
-                    listeComportements.add(item)
-                }
+                listeComportements.add(ArrayList(tmp))
             }
         } finally {
         }
     }
     
     //--------------------------
-    //      display
+    //      evalueComportement
     //--------------------------
     fun evalueComportement(){
-        for (comportement in listeComportements){
+        var comportement = ArrayList<String>()
 
+        val numbers = listOf("one", "two", "three", "four")
+        val iterator = listeComportements.iterator()
+        do {
+            var tmp = ArrayList<String>()
+            tmp = Lists.newArrayList(iterator)
+            if (tmp[0] == "set"){
+                // traitement d'une affectation
+                println("traitement d'une action <$tmp>")
+            } else if (tmp[0] == "calcul"){
+                // traitement d'un calcul
+                println("traitement d'un calcul <$tmp>")
+            } else if (tmp[0] == "if"){
+                // traitement d'un test
+                println("traitement d'un test <$tmp>")
+            }
+        } while (iterator.hasNext())
+
+        /* 
+        for ((index,comportement) in listeComportements.withIndex()){
+            if (comportement[0] == "test"){
+                // traitement particulier d'un test
+                log("evalueComportement ($nom) => ligne de test")
+                while (comportement[0] != "finTest"){
+                    var idx = listeComportements.lastIndex
+                    listeComportements.get(idx+1)
+                    log("ligne incluse dans le test <$comportement>")
+                }
+            } else if (comportement[0] == "set"){
+                // ligne d'affectaion
+            }
         }
+        */
     }
 
     //--------------------------
@@ -108,6 +137,7 @@ class Individu{
     fun refresh(){
         //log("refresh de " + this.type + "(" + this.nom + ")")
         this.age++
+        evalueComportement()
     }
 
     //--------------------------

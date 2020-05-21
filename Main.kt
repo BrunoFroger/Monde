@@ -19,7 +19,6 @@ var shell:Shell = Shell()
 var clock = Clock(5000)
 
 enum class Sexe{MALE, FEMELLE}
-data class Comportement(val variable:String, val operateur:String, val valeur:String, val action:String)
 
 //--------------------------
 //      main
@@ -53,3 +52,15 @@ public fun log(message:String){
     file.appendText("$date => $message \n")
 }
 
+//--------------------------
+//      log
+//--------------------------
+fun suppEspaces(chaine:String):String{
+    var taille:Int=0
+    var tmp:String=chaine.trim()
+    do{
+        taille = tmp.length
+        tmp = tmp.replace("  "," ")
+    } while (taille != tmp.length)
+    return tmp
+}

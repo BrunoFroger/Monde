@@ -47,9 +47,7 @@ class Shell{
     //--------------------------
     private fun getCommande():String{
         var tmp = readLine()!!
-        tmp = tmp.replace("    ", " ") 
-        tmp = tmp.replace("   ", " ") 
-        tmp = tmp.replace("  ", " ") 
+        tmp = suppEspaces(tmp) 
         //var scanner = Scanner(System.`in`)
         //var car = scanner.readByte()
         //if (car != '')
@@ -356,7 +354,7 @@ class Shell{
         var sexe:String = ""
 
         File(filename).forEachLine{
-            log ("load : => lecture de la ligne <" + it + ">")
+            //log ("load : => lecture de la ligne <" + it + ">")
             var listeParametres:List<String> = it.split(";")
             type = listeParametres[0]
             if (type.equals("Animal")) {

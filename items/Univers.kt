@@ -21,7 +21,7 @@ class Univers{
     var age:Int = 0
     var comportementFilename:String?=""
     var comportementFile:File? =null
-    var listeComportements = ArrayList<Comportement>()
+    var listeComportements = ArrayList<ArrayList<String>>()
 
     //--------------------------
     //      constructor
