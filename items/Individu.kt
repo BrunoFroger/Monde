@@ -11,7 +11,6 @@ package Monde
 
 import java.io.File
 import Monde.Shell.*
-import com.google.common.collect.Lists
 
 class Individu{
     
@@ -88,24 +87,28 @@ class Individu{
     //      evalueComportement
     //--------------------------
     fun evalueComportement(){
-        var comportement = ArrayList<String>()
 
-        val numbers = listOf("one", "two", "three", "four")
-        val iterator = listeComportements.iterator()
-        do {
-            var tmp = ArrayList<String>()
-            tmp = Lists.newArrayList(iterator)
-            if (tmp[0] == "set"){
+        var evalueBloc = true
+        for (item in listeComportements){
+            //println("ligne a analyser <$item>")
+            var tmp = item.subList(1,item.size)
+            if (item[0]!! == "set"){
                 // traitement d'une affectation
-                println("traitement d'une action <$tmp>")
-            } else if (tmp[0] == "calcul"){
+                if (evalueBloc) evalueSet(tmp)
+            } else if (item[0] == "calcul"){
                 // traitement d'un calcul
-                println("traitement d'un calcul <$tmp>")
-            } else if (tmp[0] == "if"){
+                if (evalueBloc) evalueCalcul(tmp)
+                //println("traitement d'un calcul <$item>")
+            } else if (item[0] == "if"){
                 // traitement d'un test
-                println("traitement d'un test <$tmp>")
+                //println("traitement d'un test <$item>")
+                evalueBloc = evalueIf(tmp)
+            } else if (item[0] == "fi"){
+                // traitement d'un test
+                //println("traitement d'un test <$item>")
+                evalueBloc = false
             }
-        } while (iterator.hasNext())
+        }
 
         /* 
         for ((index,comportement) in listeComportements.withIndex()){
@@ -122,6 +125,43 @@ class Individu{
             }
         }
         */
+    }
+
+    //--------------------------
+    //      evalueCalcul
+    //--------------------------
+    fun evalueCalcul(items: MutableList<String>){
+        println("Analyse de la ligne de calcul <$items>")
+    }
+
+    //--------------------------
+     //      evalueSet
+     //--------------------------
+    fun evalueSet(items: MutableList<String>){
+        //println("Analyse de la ligne de set <$items>")
+        var variable = items[0]
+        try {
+            if (variable == "age"){
+                var valeur:Int = items[1].toInt()
+                this.age = valeur
+                //println("Age modifie avec <$valeur>")
+            } else if (variable == "marie"){
+                var valeur:Boolean = items[1].toBoolean()
+                this.marie = valeur
+                //println("marie modifie avec <$valeur>")
+            }
+        } catch (e:Throwable){
+            println("Erreur de syntaxe dans la ligne set $items")
+        }
+     }
+
+    //--------------------------
+    //      evalueIf
+    //--------------------------
+    fun evalueIf(items: MutableList<String>):Boolean{
+        var result=false
+        println("Analyse de la ligne de test <$items>")
+        return result
     }
 
     //--------------------------
@@ -164,8 +204,18 @@ class Individu{
         println("| nom    |   %10s |".format(this.nom))
         println("| parent |          %3d |".format(this.parentId))
         println("| sexe   |   %10s |".format(this.sexeToString()))
-        println("| age    |          %3d |".format(this.parentId))
+        println("| age    |   %10s |".format(this.age.toString()))
+        println("| marie  |   %10s |".format(this.marie.toString()))
+        println("| dur Mar|          %3d |".format(this.dureeMariage))
+        println("| txMalad|          %3d |".format(this.tauxMaladie))
         println("+--------+--------------+")
+        /* 
+        var marie:Boolean = false
+        var dureeMariage:Int=0
+        var listeEnfants = ArrayList<Individu>()
+        var conjoint:Individu?=null
+        var tauxMaladie:Int=0
+        */
     }
     
     //--------------------------
