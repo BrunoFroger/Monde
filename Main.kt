@@ -54,7 +54,7 @@ public fun log(message:String){
 }
 
 //--------------------------
-//      log
+//      suppEspaces
 //--------------------------
 fun suppEspaces(chaine:String):String{
     var taille:Int=0

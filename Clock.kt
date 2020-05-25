@@ -50,6 +50,9 @@ class Clock{
             displayPrompt()
         }
 
+        // creation de la page web
+        pageWeb()
+        
         // launch update for each object
         for (item in listeItems){
             when(item){
