@@ -27,6 +27,7 @@ fun main(args: Array<String>){
     log("=====================================")
     log("         Debut de session")
     log("=====================================")
+    // initialisation de l'horloge
     clock.start()
     // Lancement du shell de pilotage
     shell.run()

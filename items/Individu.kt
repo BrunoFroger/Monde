@@ -12,6 +12,8 @@ package Monde
 import java.io.File
 import Monde.Shell.*
 
+class itemVariable(val nom:String, val valeur:String)
+
 class Individu{
     
     lateinit var nom:String
@@ -28,6 +30,7 @@ class Individu{
     var listeEnfants = ArrayList<Individu>()
     var conjoint:Individu?=null
     var tauxMaladie:Int=0
+    var listeVariables = ArrayList<itemVariable>()
 
     //--------------------------
     //      constructor
@@ -76,7 +79,7 @@ class Individu{
                 if (it[0] == '#') return@forEachLine
                 var ligne:String = suppEspaces(it)
                 var tmp = ligne.split(" ")
-                println(tmp.toString())
+                log(tmp.toString())
                 listeComportements.add(ArrayList(tmp))
             }
         } finally {
@@ -87,8 +90,8 @@ class Individu{
     //      evalueComportement
     //--------------------------
     fun evalueComportement(){
-
         var evalueBloc = true
+
         for (item in listeComportements){
             //println("ligne a analyser <$item>")
             var tmp = item.subList(1,item.size)
@@ -107,31 +110,22 @@ class Individu{
                 // traitement d'un test
                 //println("traitement d'un test <$item>")
                 evalueBloc = false
+            } else if (item[0] == "print"){
+                // traitement d'un affichage a l'ecran
+                if (evalueBloc) println(tmp)
+            } else {
+                // commande inconnue
+                println("la ligne de commande du fichier comportement n'est pas valide => " + item)
             }
         }
-
-        /* 
-        for ((index,comportement) in listeComportements.withIndex()){
-            if (comportement[0] == "test"){
-                // traitement particulier d'un test
-                log("evalueComportement ($nom) => ligne de test")
-                while (comportement[0] != "finTest"){
-                    var idx = listeComportements.lastIndex
-                    listeComportements.get(idx+1)
-                    log("ligne incluse dans le test <$comportement>")
-                }
-            } else if (comportement[0] == "set"){
-                // ligne d'affectaion
-            }
-        }
-        */
     }
 
     //--------------------------
     //      evalueCalcul
     //--------------------------
     fun evalueCalcul(items: MutableList<String>){
-        println("Analyse de la ligne de calcul <$items>")
+        log("Analyse de la ligne de calcul <$items>")
+        log("A traiter")
     }
 
     //--------------------------
@@ -149,6 +143,16 @@ class Individu{
                 var valeur:Boolean = items[1].toBoolean()
                 this.marie = valeur
                 //println("marie modifie avec <$valeur>")
+            } else {
+                loop@for (item in listeVariables){
+                    if (item.nom == variable){
+                        listeVariables.remove(item)
+                        break@loop
+                    }
+                }
+                // viaraible non trouvée, creation d'une variable
+                var tmp = itemVariable(variable, items[1])
+                listeVariables.add(tmp)
             }
         } catch (e:Throwable){
             println("Erreur de syntaxe dans la ligne set $items")
@@ -156,11 +160,75 @@ class Individu{
      }
 
     //--------------------------
+    //      getVariableString
+    //--------------------------
+    fun getVariableString(variable:String):String?{
+        if (variable == "age") return this.age.toString()
+        for (item in listeVariables){
+            if (item.nom == variable){
+                return item.valeur
+            }
+        }
+        println("<$variable> inconnu")
+        return null
+    }
+
+    //--------------------------
+    //      getVariableInt
+    //--------------------------
+    fun getVariableInt(variable:String):Int{
+        return getVariableString(variable)!!.toInt()
+    }
+
+    //--------------------------
+    //      getVariableBoolean
+    //--------------------------
+    fun getVariableBoolean(variable:String):Boolean{
+        if (getVariableString(variable)!! == "true"){
+            return true
+        }
+        return false
+    }
+
+    //--------------------------
     //      evalueIf
     //--------------------------
     fun evalueIf(items: MutableList<String>):Boolean{
         var result=false
-        println("Analyse de la ligne de test <$items>")
+        var variable = items[0]
+        var operateur = items[1]
+        var valeur = items[2]
+        var valeurInt = 0
+        var type = "entier"
+        //log("Analyse de la ligne de test <$items>")
+        try {
+            try {
+                valeurInt = valeur.toInt()
+            } catch (e: NumberFormatException){
+                type = "chaine"
+            }
+            if (type == "entier"){
+                // traitement du test d'un entier
+                //log("evaluation d'un entier")
+                getVariableInt(variable)
+                return (valeurInt == getVariableInt(variable))
+            } else if (type == "boolean"){
+                // traitement du test d'un booleen
+                //log("evaluation d'une booleen")
+                getVariableBoolean(variable)
+            } else if (type == "chaine"){
+                // traitement du test d'une chaine
+                //log("evaluation d'une chaine")
+                getVariableString(variable)
+                return (valeur == getVariableString(variable))
+            } else {
+                println("Type de variable inconnu <$type>")
+                log("Type de variable inconnu <$type>")
+            }
+        } catch (e:Throwable){
+            println("Erreur de syntaxe dans le bloc if $items")
+            println("<$variable> <$operateur> <$valeur> : <$type>")
+        }
         return result
     }
 
@@ -208,6 +276,12 @@ class Individu{
         println("| marie  |   %10s |".format(this.marie.toString()))
         println("| dur Mar|          %3d |".format(this.dureeMariage))
         println("| txMalad|          %3d |".format(this.tauxMaladie))
+        println("+--------+--------------+")
+        println("|var cree|   valeur     |")
+        println("+--------+--------------+")
+        for (item in listeVariables){
+            println("| %7s|   %10s |".format(item.nom, item.valeur))
+        }
         println("+--------+--------------+")
         /* 
         var marie:Boolean = false

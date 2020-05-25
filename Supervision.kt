@@ -25,6 +25,7 @@ fun supervision(){
     println("+--------------+--------------------------+")
     println("|   nextId     |   %3d                    |".format(nextId))
     println("|   parentId   |   %3d                    |".format(parentId))
+    println("|  clock delai |   %5d                  |".format(clock.delai))
     println("+--------------+--------------------------+-----------+")
     println("|  liste des items                                    |")
     println("+------------+------------+-----+--------+-----+------+")

@@ -111,7 +111,7 @@ class Clock{
                         println("Clock : delai = " + this.delai.toString())
                     } else {
                         this.delai = listeParametres[1].toLong()
-                        log ("Clock : timer delai updated $this.delai")
+                        log ("Clock : timer delai updated " + this.delai)
                     }
                 }
             }
