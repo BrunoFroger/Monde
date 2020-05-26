@@ -13,7 +13,7 @@ import Monde.Shell.*
 import java.io.*
 
 fun pageWeb(){
-    println("creation de la page web")
+    //println("creation de la page web")
     initWebPage()
     writeWebLigne("<table>")
     writeWebLigne("<tr><th colspan=\"2\">variables d'environnement</th></tr>")

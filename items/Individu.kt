@@ -76,8 +76,8 @@ class Individu{
             file!!.forEachLine{
                 //log("$type : loadComportement => ligne lue = <$it>")
                 if (it.length == 0) return@forEachLine
-                if (it[0] == '#') return@forEachLine
                 var ligne:String = suppEspaces(it)
+                if (ligne[0] == '#') return@forEachLine
                 var tmp = ligne.split(" ")
                 log(tmp.toString())
                 listeComportements.add(ArrayList(tmp))

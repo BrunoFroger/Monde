@@ -27,6 +27,7 @@ fun main(args: Array<String>){
     log("=====================================")
     log("         Debut de session")
     log("=====================================")
+    println("Supervision disponible sur : http://127.0.0.1/monde/supervision.html")
     // initialisation de l'horloge
     clock.start()
     // Lancement du shell de pilotage

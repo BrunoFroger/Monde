@@ -2270,3 +2270,46 @@
 2020-05-25 23:13:51.799 => ===================================== 
 2020-05-25 23:13:51.801 =>          fin de session 
 2020-05-25 23:13:51.801 => ===================================== 
+2020-05-25 23:26:25.940 => ===================================== 
+2020-05-25 23:26:25.958 =>          Debut de session 
+2020-05-25 23:26:25.958 => ===================================== 
+2020-05-25 23:26:48.600 => commande <load> saisie 
+2020-05-25 23:26:48.603 => Continent europe(3) cree 
+2020-05-25 23:26:48.604 => Pays france(4) cree 
+2020-05-25 23:26:48.606 => Planete terre(2) cree parent=1 
+2020-05-25 23:26:48.606 => Univers monUnivers(1) cree 
+2020-05-25 23:26:48.607 => Univers : loadComportement => chargement du fichier config/comportement.Univers.conf 
+2020-05-25 23:26:48.609 => Individu pierre(16) cree 
+2020-05-25 23:26:48.610 => [if, age, =, 10, then] 
+2020-05-25 23:26:48.610 => [set, age, 1] 
+2020-05-25 23:26:48.610 => [#print, reset, age] 
+2020-05-25 23:26:48.611 => [fi] 
+2020-05-25 23:26:48.611 => lecture fichier configuration Individu pierre ok 
+2020-05-25 23:29:43.941 => commande <quit> saisie 
+2020-05-25 23:29:43.943 => ===================================== 
+2020-05-25 23:29:43.948 =>          fin de session 
+2020-05-25 23:29:43.948 => ===================================== 
+2020-05-25 23:29:46.233 => ===================================== 
+2020-05-25 23:29:46.250 =>          Debut de session 
+2020-05-25 23:29:46.252 => ===================================== 
+2020-05-25 23:29:59.953 => commande <load> saisie 
+2020-05-25 23:29:59.957 => Continent europe(3) cree 
+2020-05-25 23:29:59.958 => Pays france(4) cree 
+2020-05-25 23:29:59.959 => Planete terre(2) cree parent=1 
+2020-05-25 23:29:59.960 => Univers monUnivers(1) cree 
+2020-05-25 23:29:59.960 => Univers : loadComportement => chargement du fichier config/comportement.Univers.conf 
+2020-05-25 23:29:59.961 => Individu pierre(16) cree 
+2020-05-25 23:29:59.963 => [if, age, =, 10, then] 
+2020-05-25 23:29:59.963 => [set, age, 1] 
+2020-05-25 23:29:59.964 => [fi] 
+2020-05-25 23:29:59.964 => lecture fichier configuration Individu pierre ok 
+2020-05-25 23:30:53.857 => commande <clock delai 1000> saisie 
+2020-05-25 23:30:53.858 => Clock : commande <delai 1000> 
+2020-05-25 23:30:53.860 => Clock : timer delai updated 1000 
+2020-05-25 23:31:33.497 => commande <clock delai 500> saisie 
+2020-05-25 23:31:33.497 => Clock : commande <delai 500> 
+2020-05-25 23:31:33.499 => Clock : timer delai updated 500 
+2020-05-25 23:31:55.744 => commande <quit> saisie 
+2020-05-25 23:31:55.744 => ===================================== 
+2020-05-25 23:31:55.746 =>          fin de session 
+2020-05-25 23:31:55.747 => ===================================== 
